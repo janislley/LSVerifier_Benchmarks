@@ -1,0 +1,67 @@
+name: VS2019
+
+on: 
+  push:
+    paths-ignore:
+      - '.gitignore'
+      - '.gitattributes'
+      - 'res/**'
+      - '**.cmd'
+      - '**.md'
+      - '**.rc'
+      - '**.sh'
+      - '**.txt'
+      - '**.xml'
+  pull_request:
+    paths-ignore:
+      - '.gitignore'
+      - '.gitattributes'
+      - 'res/**'
+      - '**.cmd'
+      - '**.md'
+      - '**.rc'
+      - '**.sh'
+      - '**.txt'
+      - '**.xml'
+
+env:
+  SOLUTION_FILE_PATH: ./rufus.sln
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    strategy:
+      matrix:
+        TARGET_PLATFORM: [x64, x86, arm64, arm]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        submodules: recursive
+
+    - name: Add MSBuild to PATH
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Build
+      run: |
+        msbuild ${{env.SOLUTION_FILE_PATH}} /m /p:Configuration=Release,Platform=${{matrix.TARGET_PLATFORM}}
+        move ./${{matrix.TARGET_PLATFORM}}/Release/rufus.exe ./rufus_${{matrix.TARGET_PLATFORM}}.exe
+
+    - name: Display SHA-256
+      run: sha256sum ./rufus_${{matrix.TARGET_PLATFORM}}.exe
+
+    - name: Upload to VirusTotal
+      if: ${{ github.event_name == 'push' }}
+      run: |
+        curl --request POST --url https://www.virustotal.com/vtapi/v2/file/scan --form apikey=${{secrets.VIRUSTOTAL_API_KEY}} --form file=@./rufus_${{matrix.TARGET_PLATFORM}}.exe
+        curl --request POST --url https://www.virustotal.com/api/v3/monitor/items --header 'x-apikey: ${{secrets.VIRUSTOTAL_API_KEY}}' --form path='/rufus_${{matrix.TARGET_PLATFORM}}.exe' --form file=@./rufus_${{matrix.TARGET_PLATFORM}}.exe
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      if: ${{ github.event_name == 'push' }}
+      with:
+        name: VS2019
+        path: ./*.exe

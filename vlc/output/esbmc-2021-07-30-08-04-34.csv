@@ -1,0 +1,4 @@
+file_name,functionVerified,function_name,function_line,error
+ modules/video_output/xcb/keysym.c, main, parse , 96 ,dereference failure: invalid pointer
+ modules/access/rtp/srtp-test-recv.c, main, main , 112 ,assertion sd != NULL
+ bin/rootwrap.c, main, main , 256 ,dereference failure: array bounds violated

@@ -1,0 +1,147 @@
+
+
+VLC
+-----
+
+Files Verified:  1100
+Functions Verified:  13065
+Counterexamples:  65
+
+Overall time: 358.21s
+Peak Memory Usage: 15.46MB
+
+dereference failure: invalid pointer --> 54
+dereference failure: array bounds violated --> 2
+dereference failure: invalid pointer freed --> 1
+assertion length >= 1 
+dec->size >= 32 + namelen + valuelen x2
+n >= 1 && n <= 8 x2
+sd != ( struct srtp_session_t *)0
+align <= 16
+needle != (signed char *)0
+
+
+VIM
+-----
+
+Files Verified:  184
+Functions Verified:  8804
+Counterexamples:  5
+
+Overall time: 417.77s
+Peak Memory Usage: 36.44MB
+
+dereference failure: invalid pointer --> 1
+dereference failure: array bounds violated --> 3
+dereference failure: invalid pointer freed --> 1
+
+TMUX
+-----
+
+Files Verified:  174
+Functions Verified:  2042
+Counterexamples:  0
+
+Overall time: 97.47s
+Peak Memory Usage: 2.91MB
+
+RUFUS
+-----
+
+Files Verified:  142
+Functions Verified:  1575
+Counterexamples:  102
+
+Overall time: 91.28s
+Peak Memory Usage: 2.56MB
+
+dereference failure: invalid pointer --> 97
+dereference failure: array bounds violated --> 1
+dereference failure: invalid pointer freed --> 3
+division by zero --> 2
+
+opessh
+-----
+
+Files Verified:  287
+Functions Verified:  3049
+Counterexamples:  15
+
+Overall time: 141.57s
+Peak Memory Usage: 3.9MB
+
+dereference failure: invalid pointer --> 13
+dereference failure: array bounds violated --> 2
+
+ogl
+-----
+
+Files Verified:  97
+Functions Verified:  2048
+Counterexamples:  130
+
+Overall time: 136.93s
+Peak Memory Usage: 3.91MB
+
+dereference failure: invalid pointer --> 111
+Same object violation --> 9
+dereference failure: array bounds violated --> 5
+dereference failure: invalid pointer freed --> 4
+dereference failure: invalidated dynamic object --> 1
+
+cmake
+-----
+
+Files Verified:  1306
+Functions Verified:  9768
+Counterexamples:  257
+
+Overall time: 604.5s
+Peak Memory Usage: 32.15MB
+
+dereference failure: invalid pointer --> 191
+Same object violation --> 18
+dereference failure: array bounds violated --> 36
+dereference failure: NULL pointer --> 2
+dereference failure: invalid pointer freed --> 6
+assertion T[s - 1] >= T[s] x2
+assertion !tiff
+assertion crc == test_vector
+
+netdata
+-------
+
+Files Verified:  253
+Functions Verified:  7352
+Counterexamples:  1295
+
+Overall time: 58791.23s
+Peak Memory Usage: 67.02MB
+
+
+Utilities/cmbzip2/bzlib.c:
+line 367 function handle_compress
+
+wireshark
+---------
+
+Files Verified:  2194
+Functions Verified:  108824
+Counterexamples:  115
+
+Overall time: 9999.28s
+Peak Memory Usage: 119.52MB
+
+openssl
+-------
+
+Files Verified:  1336
+Functions Verified:  14484
+Counterexamples:  3
+
+Overall time: 401.25s
+Peak Memory Usage: 16.58MB
+
+
+
+

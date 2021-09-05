@@ -1,0 +1,3360 @@
+########################################
+[FILE] cmd-bind-key.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-bind-key.c: Parsing
+In file included from cmd-bind-key.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-bind-key.c [TIME]: 0.1211249828338623
+########################################
+
+########################################
+[FILE] tmux.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tmux.c: Parsing
+In file included from tmux.c:34:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tmux.c [TIME]: 0.052767038345336914
+########################################
+
+########################################
+[FILE] cmd-show-messages.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-show-messages.c: Parsing
+In file included from cmd-show-messages.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-show-messages.c [TIME]: 0.039368629455566406
+########################################
+
+########################################
+[FILE] grid-reader.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file grid-reader.c: Parsing
+In file included from grid-reader.c:19:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: grid-reader.c [TIME]: 0.03498125076293945
+########################################
+
+########################################
+[FILE] cmd-set-environment.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-set-environment.c: Parsing
+In file included from cmd-set-environment.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-set-environment.c [TIME]: 0.03524017333984375
+########################################
+
+########################################
+[FILE] resize.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file resize.c: Parsing
+In file included from resize.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: resize.c [TIME]: 0.03422117233276367
+########################################
+
+########################################
+[FILE] log.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file log.c: Parsing
+In file included from log.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: log.c [TIME]: 0.03900456428527832
+########################################
+
+########################################
+[FILE] cmd-refresh-client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-refresh-client.c: Parsing
+In file included from cmd-refresh-client.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-refresh-client.c [TIME]: 0.03560972213745117
+########################################
+
+########################################
+[FILE] input.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file input.c: Parsing
+In file included from input.c:29:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: input.c [TIME]: 0.055284976959228516
+########################################
+
+########################################
+[FILE] tty.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tty.c: Parsing
+tty.c:24:10: fatal error: 'curses.h' file not found
+#include <curses.h>
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tty.c [TIME]: 0.055932044982910156
+########################################
+
+########################################
+[FILE] cmd-list-windows.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-windows.c: Parsing
+In file included from cmd-list-windows.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-windows.c [TIME]: 0.03590869903564453
+########################################
+
+########################################
+[FILE] window-copy.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-copy.c: Parsing
+In file included from window-copy.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-copy.c [TIME]: 0.05716657638549805
+########################################
+
+########################################
+[FILE] cmd-wait-for.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-wait-for.c: Parsing
+In file included from cmd-wait-for.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-wait-for.c [TIME]: 0.03791689872741699
+########################################
+
+########################################
+[FILE] cmd-send-keys.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-send-keys.c: Parsing
+In file included from cmd-send-keys.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-send-keys.c [TIME]: 0.034332275390625
+########################################
+
+########################################
+[FILE] cmd-find-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-find-window.c: Parsing
+In file included from cmd-find-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-find-window.c [TIME]: 0.03419208526611328
+########################################
+
+########################################
+[FILE] cmd-list-keys.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-keys.c: Parsing
+In file included from cmd-list-keys.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-keys.c [TIME]: 0.03701472282409668
+########################################
+
+########################################
+[FILE] osdep-unknown.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-unknown.c: Parsing
+In file included from osdep-unknown.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-unknown.c [TIME]: 0.03156232833862305
+########################################
+
+########################################
+[FILE] server.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file server.c: Parsing
+In file included from server.c:36:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: server.c [TIME]: 0.04300093650817871
+########################################
+
+########################################
+[FILE] osdep-linux.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-linux.c: Parsing
+In file included from osdep-linux.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-linux.c [TIME]: 0.036334991455078125
+########################################
+
+########################################
+[FILE] window-tree.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-tree.c: Parsing
+In file included from window-tree.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-tree.c [TIME]: 0.04161477088928223
+########################################
+
+########################################
+[FILE] key-bindings.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file key-bindings.c: Parsing
+In file included from key-bindings.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: key-bindings.c [TIME]: 0.04129815101623535
+########################################
+
+########################################
+[FILE] cmd-swap-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-swap-pane.c: Parsing
+In file included from cmd-swap-pane.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-swap-pane.c [TIME]: 0.03258013725280762
+########################################
+
+########################################
+[FILE] cmd-respawn-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-respawn-window.c: Parsing
+In file included from cmd-respawn-window.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-respawn-window.c [TIME]: 0.0355679988861084
+########################################
+
+########################################
+[FILE] cmd-pipe-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-pipe-pane.c: Parsing
+In file included from cmd-pipe-pane.c:30:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-pipe-pane.c [TIME]: 0.04027366638183594
+########################################
+
+########################################
+[FILE] file.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file file.c: Parsing
+In file included from file.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: file.c [TIME]: 0.04433941841125488
+########################################
+
+########################################
+[FILE] paste.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file paste.c: Parsing
+In file included from paste.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: paste.c [TIME]: 0.04037642478942871
+########################################
+
+########################################
+[FILE] menu.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file menu.c: Parsing
+In file included from menu.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: menu.c [TIME]: 0.036370277404785156
+########################################
+
+########################################
+[FILE] osdep-haiku.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-haiku.c: Parsing
+osdep-haiku.c:22:10: fatal error: 'kernel/OS.h' file not found
+#include <kernel/OS.h>
+^~~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-haiku.c [TIME]: 0.03400278091430664
+########################################
+
+########################################
+[FILE] cmd-switch-client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-switch-client.c: Parsing
+In file included from cmd-switch-client.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-switch-client.c [TIME]: 0.03464317321777344
+########################################
+
+########################################
+[FILE] alerts.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file alerts.c: Parsing
+In file included from alerts.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: alerts.c [TIME]: 0.03516530990600586
+########################################
+
+########################################
+[FILE] cmd-set-option.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-set-option.c: Parsing
+In file included from cmd-set-option.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-set-option.c [TIME]: 0.03497123718261719
+########################################
+
+########################################
+[FILE] screen-write.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file screen-write.c: Parsing
+In file included from screen-write.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: screen-write.c [TIME]: 0.04442715644836426
+########################################
+
+########################################
+[FILE] cmd-lock-server.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-lock-server.c: Parsing
+In file included from cmd-lock-server.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-lock-server.c [TIME]: 0.03107452392578125
+########################################
+
+########################################
+[FILE] cmd-respawn-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-respawn-pane.c: Parsing
+In file included from cmd-respawn-pane.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-respawn-pane.c [TIME]: 0.03414154052734375
+########################################
+
+########################################
+[FILE] popup.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file popup.c: Parsing
+In file included from popup.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: popup.c [TIME]: 0.037538766860961914
+########################################
+
+########################################
+[FILE] arguments.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file arguments.c: Parsing
+In file included from arguments.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: arguments.c [TIME]: 0.04155921936035156
+########################################
+
+########################################
+[FILE] cmd-save-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-save-buffer.c: Parsing
+In file included from cmd-save-buffer.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-save-buffer.c [TIME]: 0.036824941635131836
+########################################
+
+########################################
+[FILE] cmd-display-panes.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-display-panes.c: Parsing
+In file included from cmd-display-panes.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-display-panes.c [TIME]: 0.035733699798583984
+########################################
+
+########################################
+[FILE] cfg.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cfg.c: Parsing
+In file included from cfg.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cfg.c [TIME]: 0.03746747970581055
+########################################
+
+########################################
+[FILE] cmd-confirm-before.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-confirm-before.c: Parsing
+In file included from cmd-confirm-before.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-confirm-before.c [TIME]: 0.03521323204040527
+########################################
+
+########################################
+[FILE] control-notify.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file control-notify.c: Parsing
+In file included from control-notify.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: control-notify.c [TIME]: 0.034069061279296875
+########################################
+
+########################################
+[FILE] mode-tree.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file mode-tree.c: Parsing
+In file included from mode-tree.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: mode-tree.c [TIME]: 0.040107011795043945
+########################################
+
+########################################
+[FILE] layout.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file layout.c: Parsing
+In file included from layout.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: layout.c [TIME]: 0.038121700286865234
+########################################
+
+########################################
+[FILE] cmd-unbind-key.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-unbind-key.c: Parsing
+In file included from cmd-unbind-key.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-unbind-key.c [TIME]: 0.033869028091430664
+########################################
+
+########################################
+[FILE] cmd-break-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-break-pane.c: Parsing
+In file included from cmd-break-pane.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-break-pane.c [TIME]: 0.03402233123779297
+########################################
+
+########################################
+[FILE] cmd-detach-client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-detach-client.c: Parsing
+In file included from cmd-detach-client.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-detach-client.c [TIME]: 0.03421187400817871
+########################################
+
+########################################
+[FILE] cmd-display-message.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-display-message.c: Parsing
+In file included from cmd-display-message.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-display-message.c [TIME]: 0.03388643264770508
+########################################
+
+########################################
+[FILE] environ.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file environ.c: Parsing
+In file included from environ.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: environ.c [TIME]: 0.04041481018066406
+########################################
+
+########################################
+[FILE] window-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-buffer.c: Parsing
+In file included from window-buffer.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-buffer.c [TIME]: 0.038175106048583984
+########################################
+
+########################################
+[FILE] server-fn.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file server-fn.c: Parsing
+In file included from server-fn.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: server-fn.c [TIME]: 0.04116010665893555
+########################################
+
+########################################
+[FILE] osdep-freebsd.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-freebsd.c: Parsing
+osdep-freebsd.c:20:10: fatal error: 'sys/proc.h' file not found
+#include <sys/proc.h>
+^~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-freebsd.c [TIME]: 0.03614354133605957
+########################################
+
+########################################
+[FILE] cmd-queue.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-queue.c: Parsing
+In file included from cmd-queue.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-queue.c [TIME]: 0.039966583251953125
+########################################
+
+########################################
+[FILE] grid-view.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file grid-view.c: Parsing
+In file included from grid-view.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: grid-view.c [TIME]: 0.032792091369628906
+########################################
+
+########################################
+[FILE] style.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file style.c: Parsing
+In file included from style.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: style.c [TIME]: 0.037061452865600586
+########################################
+
+########################################
+[FILE] cmd-command-prompt.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-command-prompt.c: Parsing
+In file included from cmd-command-prompt.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-command-prompt.c [TIME]: 0.0384824275970459
+########################################
+
+########################################
+[FILE] cmd-run-shell.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-run-shell.c: Parsing
+In file included from cmd-run-shell.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-run-shell.c [TIME]: 0.03890347480773926
+########################################
+
+########################################
+[FILE] cmd-new-session.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-new-session.c: Parsing
+In file included from cmd-new-session.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-new-session.c [TIME]: 0.038950204849243164
+########################################
+
+########################################
+[FILE] control.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file control.c: Parsing
+In file included from control.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: control.c [TIME]: 0.05158066749572754
+########################################
+
+########################################
+[FILE] status.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file status.c: Parsing
+In file included from status.c:30:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: status.c [TIME]: 0.04573845863342285
+########################################
+
+########################################
+[FILE] cmd-split-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-split-window.c: Parsing
+In file included from cmd-split-window.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-split-window.c [TIME]: 0.03842902183532715
+########################################
+
+########################################
+[FILE] cmd-resize-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-resize-window.c: Parsing
+In file included from cmd-resize-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-resize-window.c [TIME]: 0.03337717056274414
+########################################
+
+########################################
+[FILE] cmd-load-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-load-buffer.c: Parsing
+In file included from cmd-load-buffer.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-load-buffer.c [TIME]: 0.03757929801940918
+########################################
+
+########################################
+[FILE] cmd-list-sessions.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-sessions.c: Parsing
+In file included from cmd-list-sessions.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-sessions.c [TIME]: 0.0342864990234375
+########################################
+
+########################################
+[FILE] osdep-hpux.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-hpux.c: Parsing
+In file included from osdep-hpux.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-hpux.c [TIME]: 0.03230404853820801
+########################################
+
+########################################
+[FILE] cmd-move-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-move-window.c: Parsing
+In file included from cmd-move-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-move-window.c [TIME]: 0.03437209129333496
+########################################
+
+########################################
+[FILE] osdep-cygwin.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-cygwin.c: Parsing
+In file included from osdep-cygwin.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-cygwin.c [TIME]: 0.03799939155578613
+########################################
+
+########################################
+[FILE] window-client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-client.c: Parsing
+In file included from window-client.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-client.c [TIME]: 0.03654170036315918
+########################################
+
+########################################
+[FILE] cmd-show-environment.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-show-environment.c: Parsing
+In file included from cmd-show-environment.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-show-environment.c [TIME]: 0.03479146957397461
+########################################
+
+########################################
+[FILE] layout-set.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file layout-set.c: Parsing
+In file included from layout-set.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: layout-set.c [TIME]: 0.03550291061401367
+########################################
+
+########################################
+[FILE] cmd-kill-session.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-kill-session.c: Parsing
+In file included from cmd-kill-session.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-kill-session.c [TIME]: 0.03213620185852051
+########################################
+
+########################################
+[FILE] cmd-parse.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-parse.c: Parsing
+In file included from cmd-parse.y:31:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-parse.c [TIME]: 0.0458378791809082
+########################################
+
+########################################
+[FILE] colour.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file colour.c: Parsing
+In file included from colour.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: colour.c [TIME]: 0.045122623443603516
+########################################
+
+########################################
+[FILE] cmd-select-layout.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-select-layout.c: Parsing
+In file included from cmd-select-layout.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-select-layout.c [TIME]: 0.032651424407958984
+########################################
+
+########################################
+[FILE] tty-term.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tty-term.c: Parsing
+tty-term.c:29:10: fatal error: 'term.h' file not found
+#include <term.h>
+^~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tty-term.c [TIME]: 0.03832054138183594
+########################################
+
+########################################
+[FILE] osdep-netbsd.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-netbsd.c: Parsing
+osdep-netbsd.c:20:10: fatal error: 'sys/proc.h' file not found
+#include <sys/proc.h>
+^~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-netbsd.c [TIME]: 0.04040193557739258
+########################################
+
+########################################
+[FILE] cmd-select-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-select-pane.c: Parsing
+In file included from cmd-select-pane.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-select-pane.c [TIME]: 0.03493022918701172
+########################################
+
+########################################
+[FILE] spawn.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file spawn.c: Parsing
+In file included from spawn.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: spawn.c [TIME]: 0.03960466384887695
+########################################
+
+########################################
+[FILE] screen-redraw.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file screen-redraw.c: Parsing
+In file included from screen-redraw.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: screen-redraw.c [TIME]: 0.03762173652648926
+########################################
+
+########################################
+[FILE] cmd-capture-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-capture-pane.c: Parsing
+In file included from cmd-capture-pane.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-capture-pane.c [TIME]: 0.03450512886047363
+########################################
+
+########################################
+[FILE] tty-keys.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tty-keys.c: Parsing
+In file included from tty-keys.c:32:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tty-keys.c [TIME]: 0.04633140563964844
+########################################
+
+########################################
+[FILE] layout-custom.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file layout-custom.c: Parsing
+In file included from layout-custom.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: layout-custom.c [TIME]: 0.034648895263671875
+########################################
+
+########################################
+[FILE] cmd-attach-session.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-attach-session.c: Parsing
+In file included from cmd-attach-session.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-attach-session.c [TIME]: 0.03799128532409668
+########################################
+
+########################################
+[FILE] osdep-aix.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-aix.c: Parsing
+In file included from osdep-aix.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-aix.c [TIME]: 0.03712201118469238
+########################################
+
+########################################
+[FILE] cmd-set-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-set-buffer.c: Parsing
+In file included from cmd-set-buffer.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-set-buffer.c [TIME]: 0.0355527400970459
+########################################
+
+########################################
+[FILE] cmd-choose-tree.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-choose-tree.c: Parsing
+In file included from cmd-choose-tree.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-choose-tree.c [TIME]: 0.03257584571838379
+########################################
+
+########################################
+[FILE] window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window.c: Parsing
+In file included from window.c:34:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window.c [TIME]: 0.05318498611450195
+########################################
+
+########################################
+[FILE] cmd-paste-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-paste-buffer.c: Parsing
+In file included from cmd-paste-buffer.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-paste-buffer.c [TIME]: 0.035085201263427734
+########################################
+
+########################################
+[FILE] cmd-new-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-new-window.c: Parsing
+In file included from cmd-new-window.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-new-window.c [TIME]: 0.037012338638305664
+########################################
+
+########################################
+[FILE] cmd-display-menu.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-display-menu.c: Parsing
+In file included from cmd-display-menu.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-display-menu.c [TIME]: 0.0353090763092041
+########################################
+
+########################################
+[FILE] job.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file job.c: Parsing
+In file included from job.c:30:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: job.c [TIME]: 0.04299783706665039
+########################################
+
+########################################
+[FILE] cmd-kill-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-kill-window.c: Parsing
+In file included from cmd-kill-window.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-kill-window.c [TIME]: 0.030509233474731445
+########################################
+
+########################################
+[FILE] osdep-dragonfly.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-dragonfly.c: Parsing
+In file included from osdep-dragonfly.c:21:
+/usr/include/x86_64-linux-gnu/sys/sysctl.h:21:2: warning: "The <sys/sysctl.h> header is deprecated and will be removed." [-W#warnings]
+#warning "The <sys/sysctl.h> header is deprecated and will be removed."
+^
+osdep-dragonfly.c:48:6: error: incomplete definition of type 'struct kinfo_proc'
+if (is_runnable(p1) && !is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:6: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:48:6: error: use of undeclared identifier 'SACTIVE'
+if (is_runnable(p1) && !is_runnable(p2))
+^
+osdep-dragonfly.c:41:19: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:48:6: error: incomplete definition of type 'struct kinfo_proc'
+if (is_runnable(p1) && !is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:33: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:48:6: error: use of undeclared identifier 'SIDL'
+if (is_runnable(p1) && !is_runnable(p2))
+^
+osdep-dragonfly.c:41:46: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:48:26: error: incomplete definition of type 'struct kinfo_proc'
+if (is_runnable(p1) && !is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:6: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:48:26: error: use of undeclared identifier 'SACTIVE'
+if (is_runnable(p1) && !is_runnable(p2))
+^
+osdep-dragonfly.c:41:19: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:48:26: error: incomplete definition of type 'struct kinfo_proc'
+if (is_runnable(p1) && !is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:33: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:48:26: error: use of undeclared identifier 'SIDL'
+if (is_runnable(p1) && !is_runnable(p2))
+^
+osdep-dragonfly.c:41:46: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:50:7: error: incomplete definition of type 'struct kinfo_proc'
+if (!is_runnable(p1) && is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:6: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:50:7: error: use of undeclared identifier 'SACTIVE'
+if (!is_runnable(p1) && is_runnable(p2))
+^
+osdep-dragonfly.c:41:19: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:50:7: error: incomplete definition of type 'struct kinfo_proc'
+if (!is_runnable(p1) && is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:33: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:50:7: error: use of undeclared identifier 'SIDL'
+if (!is_runnable(p1) && is_runnable(p2))
+^
+osdep-dragonfly.c:41:46: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:50:26: error: incomplete definition of type 'struct kinfo_proc'
+if (!is_runnable(p1) && is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:6: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:50:26: error: use of undeclared identifier 'SACTIVE'
+if (!is_runnable(p1) && is_runnable(p2))
+^
+osdep-dragonfly.c:41:19: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:50:26: error: incomplete definition of type 'struct kinfo_proc'
+if (!is_runnable(p1) && is_runnable(p2))
+^~~~~~~~~~~~~~~
+osdep-dragonfly.c:41:33: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:50:26: error: use of undeclared identifier 'SIDL'
+if (!is_runnable(p1) && is_runnable(p2))
+^
+osdep-dragonfly.c:41:46: note: expanded from macro 'is_runnable'
+((p)->kp_stat == SACTIVE || (p)->kp_stat == SIDL)
+^
+osdep-dragonfly.c:53:6: error: incomplete definition of type 'struct kinfo_proc'
+if (is_stopped(p1) && !is_stopped(p2))
+^~~~~~~~~~~~~~
+osdep-dragonfly.c:43:6: note: expanded from macro 'is_stopped'
+((p)->kp_stat == SSTOP || (p)->kp_stat == SZOMB)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+osdep-dragonfly.c:53:6: error: use of undeclared identifier 'SSTOP'
+if (is_stopped(p1) && !is_stopped(p2))
+^
+osdep-dragonfly.c:43:19: note: expanded from macro 'is_stopped'
+((p)->kp_stat == SSTOP || (p)->kp_stat == SZOMB)
+^
+osdep-dragonfly.c:53:6: error: incomplete definition of type 'struct kinfo_proc'
+if (is_stopped(p1) && !is_stopped(p2))
+^~~~~~~~~~~~~~
+osdep-dragonfly.c:43:31: note: expanded from macro 'is_stopped'
+((p)->kp_stat == SSTOP || (p)->kp_stat == SZOMB)
+~~~^
+osdep-dragonfly.c:31:8: note: forward declaration of 'struct kinfo_proc'
+struct kinfo_proc       *cmp_procs(struct kinfo_proc *, struct kinfo_proc *);
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+PARSING ERROR
+
+########################################
+[FILE]: osdep-dragonfly.c [TIME]: 0.03420233726501465
+########################################
+
+########################################
+[FILE] cmd-kill-server.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-kill-server.c: Parsing
+In file included from cmd-kill-server.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-kill-server.c [TIME]: 0.03571176528930664
+########################################
+
+########################################
+[FILE] cmd-select-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-select-window.c: Parsing
+In file included from cmd-select-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-select-window.c [TIME]: 0.03232121467590332
+########################################
+
+########################################
+[FILE] notify.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file notify.c: Parsing
+In file included from notify.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: notify.c [TIME]: 0.036431074142456055
+########################################
+
+########################################
+[FILE] names.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file names.c: Parsing
+In file included from names.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: names.c [TIME]: 0.03547978401184082
+########################################
+
+########################################
+[FILE] cmd.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd.c: Parsing
+In file included from cmd.c:28:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd.c [TIME]: 0.04053997993469238
+########################################
+
+########################################
+[FILE] client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file client.c: Parsing
+In file included from client.c:33:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: client.c [TIME]: 0.04331493377685547
+########################################
+
+########################################
+[FILE] key-string.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file key-string.c: Parsing
+In file included from key-string.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: key-string.c [TIME]: 0.03569221496582031
+########################################
+
+########################################
+[FILE] tty-features.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tty-features.c: Parsing
+In file included from tty-features.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tty-features.c [TIME]: 0.035504817962646484
+########################################
+
+########################################
+[FILE] input-keys.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file input-keys.c: Parsing
+In file included from input-keys.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: input-keys.c [TIME]: 0.03966975212097168
+########################################
+
+########################################
+[FILE] cmd-copy-mode.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-copy-mode.c: Parsing
+In file included from cmd-copy-mode.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-copy-mode.c [TIME]: 0.03182673454284668
+########################################
+
+########################################
+[FILE] regsub.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file regsub.c: Parsing
+In file included from regsub.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: regsub.c [TIME]: 0.03350830078125
+########################################
+
+########################################
+[FILE] cmd-list-clients.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-clients.c: Parsing
+In file included from cmd-list-clients.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-clients.c [TIME]: 0.03622770309448242
+########################################
+
+########################################
+[FILE] cmd-source-file.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-source-file.c: Parsing
+In file included from cmd-source-file.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-source-file.c [TIME]: 0.03491568565368652
+########################################
+
+########################################
+[FILE] osdep-openbsd.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-openbsd.c: Parsing
+osdep-openbsd.c:21:10: fatal error: 'sys/proc.h' file not found
+#include <sys/proc.h>
+^~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-openbsd.c [TIME]: 0.032793521881103516
+########################################
+
+########################################
+[FILE] cmd-rename-session.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-rename-session.c: Parsing
+In file included from cmd-rename-session.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-rename-session.c [TIME]: 0.03592729568481445
+########################################
+
+########################################
+[FILE] cmd-find.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-find.c: Parsing
+In file included from cmd-find.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-find.c [TIME]: 0.04314446449279785
+########################################
+
+########################################
+[FILE] window-customize.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-customize.c: Parsing
+In file included from window-customize.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-customize.c [TIME]: 0.04244685173034668
+########################################
+
+########################################
+[FILE] options.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file options.c: Parsing
+In file included from options.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: options.c [TIME]: 0.044359445571899414
+########################################
+
+########################################
+[FILE] tty-acs.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file tty-acs.c: Parsing
+In file included from tty-acs.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: tty-acs.c [TIME]: 0.036570072174072266
+########################################
+
+########################################
+[FILE] cmd-kill-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-kill-pane.c: Parsing
+In file included from cmd-kill-pane.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-kill-pane.c [TIME]: 0.034121036529541016
+########################################
+
+########################################
+[FILE] grid.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file grid.c: Parsing
+In file included from grid.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: grid.c [TIME]: 0.03946661949157715
+########################################
+
+########################################
+[FILE] osdep-sunos.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-sunos.c: Parsing
+osdep-sunos.c:23:10: fatal error: 'procfs.h' file not found
+#include <procfs.h>
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-sunos.c [TIME]: 0.036003828048706055
+########################################
+
+########################################
+[FILE] cmd-show-options.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-show-options.c: Parsing
+In file included from cmd-show-options.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-show-options.c [TIME]: 0.0354008674621582
+########################################
+
+########################################
+[FILE] format-draw.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file format-draw.c: Parsing
+In file included from format-draw.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: format-draw.c [TIME]: 0.040300607681274414
+########################################
+
+########################################
+[FILE] cmd-if-shell.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-if-shell.c: Parsing
+In file included from cmd-if-shell.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-if-shell.c [TIME]: 0.03690361976623535
+########################################
+
+########################################
+[FILE] cmd-list-panes.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-panes.c: Parsing
+In file included from cmd-list-panes.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-panes.c [TIME]: 0.032423973083496094
+########################################
+
+########################################
+[FILE] server-client.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file server-client.c: Parsing
+In file included from server-client.c:30:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: server-client.c [TIME]: 0.0518641471862793
+########################################
+
+########################################
+[FILE] cmd-rotate-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-rotate-window.c: Parsing
+In file included from cmd-rotate-window.c:21:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-rotate-window.c [TIME]: 0.032135963439941406
+########################################
+
+########################################
+[FILE] cmd-resize-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-resize-pane.c: Parsing
+In file included from cmd-resize-pane.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-resize-pane.c [TIME]: 0.03534364700317383
+########################################
+
+########################################
+[FILE] cmd-list-buffers.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-list-buffers.c: Parsing
+In file included from cmd-list-buffers.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-list-buffers.c [TIME]: 0.034330129623413086
+########################################
+
+########################################
+[FILE] cmd-rename-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-rename-window.c: Parsing
+In file included from cmd-rename-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-rename-window.c [TIME]: 0.03317093849182129
+########################################
+
+########################################
+[FILE] cmd-swap-window.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-swap-window.c: Parsing
+In file included from cmd-swap-window.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-swap-window.c [TIME]: 0.0336301326751709
+########################################
+
+########################################
+[FILE] proc.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file proc.c: Parsing
+In file included from proc.c:34:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: proc.c [TIME]: 0.04116010665893555
+########################################
+
+########################################
+[FILE] screen.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file screen.c: Parsing
+In file included from screen.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: screen.c [TIME]: 0.03834867477416992
+########################################
+
+########################################
+[FILE] format.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file format.c: Parsing
+In file included from format.c:34:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: format.c [TIME]: 0.07106781005859375
+########################################
+
+########################################
+[FILE] session.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file session.c: Parsing
+In file included from session.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: session.c [TIME]: 0.044321537017822266
+########################################
+
+########################################
+[FILE] window-clock.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file window-clock.c: Parsing
+In file included from window-clock.c:25:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: window-clock.c [TIME]: 0.03695964813232422
+########################################
+
+########################################
+[FILE] cmd-join-pane.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file cmd-join-pane.c: Parsing
+In file included from cmd-join-pane.c:26:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: cmd-join-pane.c [TIME]: 0.03656816482543945
+########################################
+
+########################################
+[FILE] osdep-darwin.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file osdep-darwin.c: Parsing
+In file included from osdep-darwin.c:20:
+/usr/include/x86_64-linux-gnu/sys/sysctl.h:21:2: warning: "The <sys/sysctl.h> header is deprecated and will be removed." [-W#warnings]
+#warning "The <sys/sysctl.h> header is deprecated and will be removed."
+^
+osdep-darwin.c:22:10: fatal error: 'Availability.h' file not found
+#include <Availability.h>
+^~~~~~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: osdep-darwin.c [TIME]: 0.028353452682495117
+########################################
+
+########################################
+[FILE] utf8.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file utf8.c: Parsing
+In file included from utf8.c:27:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: utf8.c [TIME]: 0.04227876663208008
+########################################
+
+########################################
+[FILE] xmalloc.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file xmalloc.c: Parsing
+In file included from xmalloc.c:24:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: xmalloc.c [TIME]: 0.03762984275817871
+########################################
+
+########################################
+[FILE] options-table.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file options-table.c: Parsing
+In file included from options-table.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: options-table.c [TIME]: 0.036354780197143555
+########################################
+
+########################################
+[FILE] attributes.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file attributes.c: Parsing
+In file included from attributes.c:23:
+In file included from ./tmux.h:34:
+./compat.h:40:10: fatal error: 'event.h' file not found
+#include <event.h>
+^~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: attributes.c [TIME]: 0.03287148475646973
+########################################
+
+########################################
+[FILE] compat/getdtablesize.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/getdtablesize.c: Parsing
+compat/getdtablesize.c:21:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/getdtablesize.c [TIME]: 0.019777536392211914
+########################################
+
+########################################
+[FILE] compat/strcasestr.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strcasestr.c: Parsing
+compat/strcasestr.c:39:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strcasestr.c [TIME]: 0.019575119018554688
+########################################
+
+########################################
+[FILE] compat/forkpty-sunos.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/forkpty-sunos.c: Parsing
+compat/forkpty-sunos.c:23:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+^~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/forkpty-sunos.c [TIME]: 0.024586200714111328
+########################################
+
+########################################
+[FILE] compat/imsg-buffer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/imsg-buffer.c: Parsing
+compat/imsg-buffer.c:29:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/imsg-buffer.c [TIME]: 0.026575326919555664
+########################################
+
+########################################
+[FILE] compat/forkpty-haiku.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/forkpty-haiku.c: Parsing
+compat/forkpty-haiku.c:24:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/forkpty-haiku.c [TIME]: 0.02297806739807129
+########################################
+
+########################################
+[FILE] compat/forkpty-aix.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/forkpty-aix.c: Parsing
+compat/forkpty-aix.c:22:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+^~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/forkpty-aix.c [TIME]: 0.023359298706054688
+########################################
+
+########################################
+[FILE] compat/getprogname.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/getprogname.c: Parsing
+compat/getprogname.c:21:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/getprogname.c [TIME]: 0.018115758895874023
+########################################
+
+########################################
+[FILE] compat/fdforkpty.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/fdforkpty.c: Parsing
+compat/fdforkpty.c:21:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/fdforkpty.c [TIME]: 0.018296003341674805
+########################################
+
+########################################
+[FILE] compat/strsep.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strsep.c: Parsing
+compat/strsep.c:35:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strsep.c [TIME]: 0.02003788948059082
+########################################
+
+########################################
+[FILE] compat/reallocarray.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/reallocarray.c: Parsing
+compat/reallocarray.c:23:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/reallocarray.c [TIME]: 0.02130579948425293
+########################################
+
+########################################
+[FILE] compat/setenv.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/setenv.c: Parsing
+compat/setenv.c:23:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/setenv.c [TIME]: 0.02179121971130371
+########################################
+
+########################################
+[FILE] compat/cfmakeraw.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/cfmakeraw.c: Parsing
+compat/cfmakeraw.c:23:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/cfmakeraw.c [TIME]: 0.02073192596435547
+########################################
+
+########################################
+[FILE] compat/fgetln.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/fgetln.c: Parsing
+compat/fgetln.c:25:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/fgetln.c [TIME]: 0.022222280502319336
+########################################
+
+########################################
+[FILE] compat/strlcpy.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strlcpy.c: Parsing
+compat/strlcpy.c:22:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strlcpy.c [TIME]: 0.019210338592529297
+########################################
+
+########################################
+[FILE] compat/strndup.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strndup.c: Parsing
+compat/strndup.c:25:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strndup.c [TIME]: 0.021239757537841797
+########################################
+
+########################################
+[FILE] compat/asprintf.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/asprintf.c: Parsing
+compat/asprintf.c:24:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/asprintf.c [TIME]: 0.022472858428955078
+########################################
+
+########################################
+[FILE] compat/daemon.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/daemon.c: Parsing
+compat/daemon.c:37:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/daemon.c [TIME]: 0.023528337478637695
+########################################
+
+########################################
+[FILE] compat/clock_gettime.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/clock_gettime.c: Parsing
+compat/clock_gettime.c:20:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/clock_gettime.c [TIME]: 0.018178224563598633
+########################################
+
+########################################
+[FILE] compat/base64.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/base64.c: Parsing
+Converting
+main symbol `main' not found
+CONVERSION ERROR
+
+########################################
+[FILE]: compat/base64.c [TIME]: 0.07964897155761719
+########################################
+
+########################################
+[FILE] compat/strtonum.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strtonum.c: Parsing
+compat/strtonum.c:24:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strtonum.c [TIME]: 0.02013874053955078
+########################################
+
+########################################
+[FILE] compat/explicit_bzero.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/explicit_bzero.c: Parsing
+compat/explicit_bzero.c:9:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/explicit_bzero.c [TIME]: 0.017834901809692383
+########################################
+
+########################################
+[FILE] compat/getline.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/getline.c: Parsing
+compat/getline.c:44:10: fatal error: 'tmux.h' file not found
+#include "tmux.h"
+^~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/getline.c [TIME]: 0.02559351921081543
+########################################
+
+########################################
+[FILE] compat/getopt.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/getopt.c: Parsing
+compat/getopt.c:32:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/getopt.c [TIME]: 0.02386951446533203
+########################################
+
+########################################
+[FILE] compat/strnlen.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strnlen.c: Parsing
+compat/strnlen.c:23:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strnlen.c [TIME]: 0.02068638801574707
+########################################
+
+########################################
+[FILE] compat/unvis.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/unvis.c: Parsing
+compat/unvis.c:34:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/unvis.c [TIME]: 0.019086360931396484
+########################################
+
+########################################
+[FILE] compat/vis.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/vis.c: Parsing
+compat/vis.c:38:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/vis.c [TIME]: 0.02398538589477539
+########################################
+
+########################################
+[FILE] compat/daemon-darwin.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/daemon-darwin.c: Parsing
+compat/daemon-darwin.c:50:10: fatal error: 'mach/mach.h' file not found
+#include <mach/mach.h>
+^~~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/daemon-darwin.c [TIME]: 0.020886659622192383
+########################################
+
+########################################
+[FILE] compat/forkpty-hpux.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/forkpty-hpux.c: Parsing
+compat/forkpty-hpux.c:22:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+^~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/forkpty-hpux.c [TIME]: 0.02354907989501953
+########################################
+
+########################################
+[FILE] compat/closefrom.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/closefrom.c: Parsing
+compat/closefrom.c:51:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/closefrom.c [TIME]: 0.026151180267333984
+########################################
+
+########################################
+[FILE] compat/recallocarray.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/recallocarray.c: Parsing
+compat/recallocarray.c:24:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/recallocarray.c [TIME]: 0.02521800994873047
+########################################
+
+########################################
+[FILE] compat/setproctitle.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/setproctitle.c: Parsing
+compat/setproctitle.c:22:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/setproctitle.c [TIME]: 0.02039790153503418
+########################################
+
+########################################
+[FILE] compat/imsg.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/imsg.c: Parsing
+compat/imsg.c:28:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/imsg.c [TIME]: 0.026592731475830078
+########################################
+
+########################################
+[FILE] compat/getdtablecount.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/getdtablecount.c: Parsing
+compat/getdtablecount.c:22:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/getdtablecount.c [TIME]: 0.01984429359436035
+########################################
+
+########################################
+[FILE] compat/err.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/err.c: Parsing
+compat/err.c:25:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/err.c [TIME]: 0.023785114288330078
+########################################
+
+########################################
+[FILE] compat/utf8proc.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/utf8proc.c: Parsing
+compat/utf8proc.c:19:10: fatal error: 'utf8proc.h' file not found
+#include <utf8proc.h>
+^~~~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/utf8proc.c [TIME]: 0.018640756607055664
+########################################
+
+########################################
+[FILE] compat/freezero.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/freezero.c: Parsing
+compat/freezero.c:22:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/freezero.c [TIME]: 0.021502256393432617
+########################################
+
+########################################
+[FILE] compat/strlcat.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/strlcat.c: Parsing
+compat/strlcat.c:22:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/strlcat.c [TIME]: 0.020232677459716797
+########################################
+
+########################################
+[FILE] compat/memmem.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file compat/memmem.c: Parsing
+compat/memmem.c:32:10: fatal error: 'compat.h' file not found
+#include "compat.h"
+^~~~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: compat/memmem.c [TIME]: 0.018842220306396484
+########################################
+
+########################################
+[FILE] fuzz/input-fuzzer.c
+[ARGS] ['--unwind', '1', '--no-unwinding-assertions']
+[FUNCTION] main
+########################################
+
+ESBMC version 6.7.0 64-bit x86_64 linux
+file fuzz/input-fuzzer.c: Parsing
+fuzz/input-fuzzer.c:20:10: fatal error: 'tmux.h' file not found
+#include "tmux.h"
+^~~~~~~~
+PARSING ERROR
+
+########################################
+[FILE]: fuzz/input-fuzzer.c [TIME]: 0.017821788787841797
+########################################
+
+[OVERALL TIME]: 6.1905553340911865

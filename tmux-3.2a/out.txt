@@ -1,0 +1,348 @@
+    1  clear
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  clear
+    5  ls
+    6  cd Downloads/
+    7  ls
+    8  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    9  ls
+   10  sudo apt install ./google-chrome-stable_current_amd64.deb 
+   11  ls
+   12  sudo ./dis
+   13  clear
+   14  ls
+   15  chmod x+ displaylink-driver-5.3.1.34.run 
+   16  chmod 777  displaylink-driver-5.3.1.34.run 
+   17  ls
+   18  sudo ./displaylink-driver-5.3.1.34.run 
+   19  ls
+   20  ./displaylink-driver-5.3.1.34.run 
+   21  sudo su
+   22  sudo
+   23  su root
+   24  sudo su
+   25  clear
+   26  sudo su
+   27  cd Downloads/
+   28  ls
+   29  cd DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/
+   30  ls
+   31  sudo su
+   32  c Downloads/
+   33  ls
+   34  cd Downloads/
+   35  ls
+   36  cd DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/
+   37  ls
+   38  sudo ./displaylink-driver-5.3.1.34.run 
+   39  clear
+   40  sudo apt update
+   41  sudo apt install dkms
+   42  sudo apt install libdrm-dev
+   43  cd ..
+   44  clear
+   45  lsusb -d 17e9:
+   46  sudo apt-get dist-upgrade
+   47  xrandr --output DVI-1-0 --mode 1680x1050
+   48  reboot
+   49  uname-r
+   50  uname -r
+   51  sudo apt purge virtualbox-guest-dkms
+   52  cd Downloads/
+   53  ls
+   54  sudo dpkg -i xserver-xorg-core_1.20.8-2ubuntu2_amd64.deb
+   55  sudo apt install dpkg
+   56  sudo dpkg -i xserver-xorg-core_1.20.8-2ubuntu2_amd64.deb
+   57  ls
+   58  sudo apt install unzip
+   59  unzip DisplayLink\ XServer\ Patch\ 20.04.zip 
+   60  ls
+   61  cd DisplayLinkXServerPatch/
+   62  ls
+   63  sudo dpkg -i xserver-xorg-core_1.20.8-2ubuntu2_amd64.deb
+   64  sudo apt-get install --reinstall xserver-xorg-core
+   65  CLEAR
+   66  clear
+   67  cd ..
+   68  ls
+   69  cd DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/
+   70  ls
+   71  ./displaylink-driver-5.3.1.34.run --noexec --keep
+   72  cd ..
+   73  git clone https://github.com/DisplayLink/evdi.git evdi-1.7.0
+   74  sudo apt install git
+   75  git clone https://github.com/DisplayLink/evdi.git evdi-1.7.0
+   76  pushd evdi-1.7.0
+   77  git fetch origin pull/228/head
+   78  git checkout -b pr228 FETCH_HEAD
+   79  popd
+   80  ls
+   81  cd DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/
+   82  ls
+   83  rm displaylink-driver-5.3.1.34/evdi.tar.gz 
+   84  c ..
+   85  pushd evdi-1.7.0
+   86  ls
+   87  cd ..
+   88  pushd evdi-1.7.0
+   89  tar cf evdi.tar.gz *
+   90  cp evdi.tar.gz ../displaylink-driver-5.3.1.34/
+   91  ls
+   92  cd ..
+   93  c evdi-1.7.0
+   94  cd evdi-1.7.0
+   95  ls
+   96  cp evdi.tar.gz ../DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/displaylink-driver-5.3.1.34/
+   97  popd
+   98  ls
+   99  cd DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.3.1/
+  100  ls
+  101  cd displaylink-driver-5.3.1.34/
+  102  ls
+  103  sudo ./displaylink-installer.sh install
+  104  sudo apt-get install nvidia-driver-460
+  105  cd Downlo
+  106  cd Downloads/
+  107  ls
+  108  curl -L -o displaylink.zip -d fileId=1576 -d accept_submit=Accept https://www.displaylink.com/downloads/file
+  109  sudo apt install curl
+  110  curl -L -o displaylink.zip -d fileId=1576 -d accept_submit=Accept https://www.displaylink.com/downloads/file
+  111  ls
+  112  unzip displaylink.zip 
+  113  ls
+  114  sudo x+ displaylink-driver-5.3.1.34.run 
+  115  sudo 777 displaylink-driver-5.3.1.34.run 
+  116  chmod x+ displaylink-driver-5.3.1.34.run 
+  117  chmod 777 displaylink-driver-5.3.1.34.run 
+  118  ls
+  119  sudo ./displaylink-driver-5.3.1.34.run 
+  120  cd Download
+  121  cd Downloads/
+  122  ls
+  123  cd ..
+  124  cd Documents/
+  125  chmod +x ./displaylink-driver-5.3.1.34.run 
+  126  ls
+  127  sudo ./displaylink-driver-5.3.1.34.run 
+  128  ls
+  129  sudo dpkg -i xserver-xorg-core_1.20.8-2ubuntu2_amd64.deb
+  130  sudo apt-get install --reinstall xserver-xorg-core
+  131  reboot
+  132  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+  133  ls
+  134  ~/.dropbox-dist/dropboxd
+  135  git
+  136  clear
+  137  sudo apt update
+  138  clear
+  139  sudo apt install vlc
+  140  ls
+  141  cd Downloads/
+  142  ls
+  143  rm *
+  144  rm .
+  145  rm all
+  146  clear
+  147  wget https://go.skype.com/skypeforlinux-64.deb
+  148  sudo apt install ./skypeforlinux-64.deb
+  149  sudo apt update
+  150  sudo apt upgrade
+  151  sudo apt install ./zoom_amd64.deb
+  152  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 4773BD5E130D1D45
+  153  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  154  sudo apt update
+  155  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 4773BD5E130D1D45
+  156  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  157  sudo apt update
+  158  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+  159  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  160  sudo apt update
+  161  gedit /etc/apt/sources.list.d
+  162  sudo gedit /etc/apt/sources.list.d
+  163  gedit /etc/apt/sources.list.d/spotify.list 
+  164  clear
+  165  sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 4773BD5E130D1D45
+  166  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  167  sudo apt update
+  168  curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
+  169  sudo apt update
+  170  sudo apt install spotify-client
+  171  sudo add-apt-repository ppa:dimula73/krita
+  172  sudo apt update
+  173  sudo gedit  /etc/apt/sources.list.d
+  174  sudo add-apt-repository --remove ppa:dimula73/krita
+  175  sudo apt update
+  176  clear
+  177  cd Documents/
+  178  ls
+  179  mkdir Linux_Kernel_Vulner
+  180  ls
+  181  cd Linux_Kernel_Vulner/
+  182  git init
+  183  git add README.md
+  184  echo "start" >> README.md
+  185  ls
+  186  git add README.md
+  187  git config --global user.name "janislley"
+  188  git config --global user.email janislley@gmail.com
+  189  ls
+  190  git clone https://github.com/janislley/Linux_Kernel_Study.git
+  191  ls
+  192  cd Linux_Kernel_Study/
+  193  ls
+  194  echo "start" >> README.md
+  195  ls
+  196  git status
+  197  git add README.md 
+  198  git commit -m "Creating repo"
+  199  git push -u origin master
+  200  git push
+  201  git pull
+  202  ls
+  203  gedit notes.html
+  204  ls
+  205  git status 
+  206  git add .
+  207  git commit -m "notes file"
+  208  git pull
+  209  git push
+  210  sudo apt-get install synaptic
+  211  sudo add-apt-repository ppa:inameiname/stable
+  212  clear
+  213  sudo apt-get update
+  214  sudo add-apt-repository remove ppa:inameiname/stable
+  215  sudo add-apt-repository -remove ppa:inameiname/stable
+  216  sudo add-apt-repository --remove ppa:inameiname/stable
+  217  sudo apt-get update
+  218  clear
+  219  cd Downloads
+  220  ls
+  221  cd Canon_3100/
+  222  ls
+  223  sudo apt-get install libgutenprint-dev build-essential
+  224  sudo apt-get install libcups2-dev
+  225  sudo apt-get install libcupsimage2-dev
+  226  ls
+  227  tar -zxvf cnijfilter2-5.30-1-deb.tar.gz 
+  228  ls
+  229  cd cnijfilter2-5.30-1-deb/
+  230  ls
+  231  sudo ./install.sh 
+  232  ls
+  233  cd ..
+  234  ls
+  235  tar -zxvf scangearmp2-3.30-1-deb.tar.gz 
+  236  cd ,,
+  237  ls
+  238  cd scangearmp2-3.30-1-deb/
+  239  ls
+  240  sudo ./install.sh 
+  241  cd Documents/
+  242  ls
+  243  python3 writeC.py source.py destination.c
+  244  python writeC.py source.py destination.c
+  245  python3 writeC.py source.py destination.c
+  246  clear
+  247  ls
+  248  cd Linux_Kernel_Vulner/
+  249  ls
+  250  cd Linux_Kernel_Study/
+  251  ls
+  252  cd Juliet_Test_Suite_v1.3_for_C_Cpp/
+  253  ls
+  254  cd C
+  255  ls
+  256  cd Documents/Linux_Kernel_Vulner/Linux_Kernel_Study/CBMC/ 
+  257  ls
+  258  cbmc
+  259  apt-get install g++ gcc flex bison make git curl patch
+  260  sudo apt-get install g++ gcc flex bison make git curl patch
+  261  ls
+  262  make -C src minisat2-download
+  263  make -C src
+  264  cbmc
+  265  ls
+  266  cd src
+  267  ls
+  268  cbmc
+  269  sudo apt install cbmc
+  270  cbmc
+  271  cd ..
+  272  ls
+  273  cd Juliet/
+  274  ls
+  275  cd testcases
+  276  ls
+  277  cd Arithmetic_Overflow/
+  278  ls
+  279  cd CWE190_Integer_Overflow/
+  280  ls
+  281  cd s01
+  282  ls
+  283  cbmc CWE190_Integer_Overflow__char_fscanf_add_01.c --funtion fun --div-by-zero-check --trace
+  284  cbmc CWE190_Integer_Overflow__char_fscanf_add_01.c --div-by-zero-check --trace
+  285  gedit CWE190_Integer_Overflow__char_fscanf_add_01.c&
+  286  ls
+  287  gedit main.cpp
+  288  gedit main_linux.cpp &
+  289  gedit testcases.h &
+  290  cd ..
+  291  ls
+  292  cd ..
+  293  ls
+  294  clear
+  295  cd Division_By_Zero/
+  296  LS
+  297  clear
+  298  ls
+  299  cd CWE369_Divide_by_Zero/
+  300  ls
+  301  cd s0
+  302  ls
+  303  cd s0
+  304  ls
+  305  cd s01
+  306  ls
+  307  cbmc CWE369_Divide_by_Zero__float_connect_socket_01.c --div-by-zero-check --trace
+  308  gedit CWE369_Divide_by_Zero__float_connect_socket_01.c 
+  309  cbmc CWE369_Divide_by_Zero__float_connect_socket_01.c --div-by-zero-check --trace
+  310  gedit CWE369_Divide_by_Zero__float_connect_socket_01.c 
+  311  cbmc CWE369_Divide_by_Zero__float_connect_socket_01.c --function goodB2G --div-by-zero-check --trace
+  312  cd ../../..
+  313  ls
+  314  ls -la
+  315  cd Division_By_Zero/l
+  316  cd Division_By_Zero/
+  317  ls
+  318  cd CWE369_Divide_by_Zero/
+  319  ls
+  320  cd s01
+  321  ls
+  322  gedit main_linux.cpp 
+  323  cbmc CWE369_Divide_by_Zero__float_connect_socket_01.c --function goodB2G --div-by-zero-check --trace
+  324  sudo apt-get update && sudo apt-get install spotify-client
+  325  sudo adb install pip3
+  326  sudo adb install pip
+  327  sudo apt-get install pip3
+  328  sudo apt-get install pip
+  329  clear
+  330  pip3 install esbmc-wr
+  331  clear
+  332  cd Documents/
+  333  ls
+  334  cd Linux_Kernel_Vulner/
+  335  ls
+  336  cd Linux_Kernel_Study/
+  337  ls
+  338  mkdir ESBMC-wr
+  339  cd ESBMC
+  340  cd ..
+  341  cd ESBMC-wr/
+  342  clear
+  343  ls
+  344  cd tmux-3.2a/
+  345  ls
+  346  esbmc-wr
+  347  history out.txt
+  348  history > out.txt

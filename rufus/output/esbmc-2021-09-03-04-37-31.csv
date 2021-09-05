@@ -1,0 +1,77 @@
+file_name,functionVerified,function_name,function_line,error
+ src/re.c, matchcharclass, matchrange , 313 ,dereference failure: invalid pointer
+ src/re.c, matchmetachar, matchmetachar , 339 ,dereference failure: invalid pointer
+ src/re.c, matchpattern, matchpattern , 499 ,dereference failure: invalid pointer
+ src/re.c, matchplus, matchplus , 427 ,dereference failure: invalid pointer
+ src/re.c, matchstar, matchstar , 406 ,dereference failure: invalid pointer
+ src/re.c, re_compile, re_compile , 209 ,dereference failure: invalid pointer
+ src/re.c, re_match, re_matchp , 84 ,dereference failure: invalid pointer
+ src/re.c, re_print, re_print , 269 ,array bounds violated: array `types' upper bound
+ src/bled/xz_dec_stream.c, crc32_validate, crc32_validate , 352 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_block, dec_block , 222 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_block_header, get_unaligned_le32 , 77 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_index, dec_vli , 180 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_main, dec_main , 557 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_stream_footer, memcmp , 310 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, dec_vli, dec_vli , 184 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, fill_temp, memcpy , 264 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, index_update, index_update , 283 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, xz_dec_end, xz_dec_end , 816 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, xz_dec_init, xz_dec_init , 28 ,dereference failure: invalid pointer freed
+ src/bled/xz_dec_stream.c, xz_dec_reset, xz_dec_reset , 803 ,dereference failure: invalid pointer
+ src/bled/xz_dec_stream.c, xz_dec_run, xz_dec_run , 740 ,dereference failure: invalid pointer
+ src/bled/xz_dec_bcj.c, bcj_apply, bcj_apply , 361 ,dereference failure: invalid pointer
+ src/bled/xz_dec_bcj.c, bcj_flush, bcj_flush , 409 ,dereference failure: invalid pointer
+ src/bled/xz_dec_bcj.c, bcj_x86, bcj_x86 , 98 ,dereference failure: invalid pointer
+ src/bled/xz_dec_bcj.c, xz_dec_bcj_reset, xz_dec_bcj_reset , 570 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_flush, dict_flush , 420 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_get, dict_get , 323 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_has_space, dict_has_space , 311 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_limit, dict_limit , 302 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_put, dict_put , 336 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_repeat, dict_repeat , 353 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_reset, dict_reset , 288 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, dict_uncompressed, dict_uncompressed , 381 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma2_lzma, dict_repeat , 364 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma_len, rc_normalize , 482 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma_literal, rc_normalize , 484 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma_literal_probs, dict_get , 328 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma_props, lzma_props , 806 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, lzma_reset, lzma_reset , 774 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_bit, rc_bit , 505 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_bittree_reverse, rc_bittree_reverse , 546 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_direct, rc_direct , 565 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_is_finished, rc_is_finished , 476 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_limit_exceeded, rc_limit_exceeded , 467 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_read_init, rc_read_init , 457 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, rc_reset, rc_reset , 442 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, xz_dec_lzma2_end, xz_dec_lzma2_end , 1170 ,dereference failure: invalid pointer
+ src/bled/xz_dec_lzma2.c, xz_dec_lzma2_reset, xz_dec_lzma2_reset , 30 ,dereference failure: invalid pointer freed
+ src/bled/xz_dec_lzma2.c, xz_dec_lzma2_run, xz_dec_lzma2_run , 1043 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, __rb_erase_color, __rb_erase_color , 141 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, __rb_rotate_right, __rb_rotate_right , 53 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_augment_erase_begin, ext2fs_rb_augment_erase_begin , 324 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_first, ext2fs_rb_first , 360 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_insert_color, ext2fs_rb_insert_color , 144 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_last, ext2fs_rb_last , 372 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_next, ext2fs_rb_next , 391 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_prev, ext2fs_rb_prev , 419 ,dereference failure: invalid pointer
+ src/ext2fs/rbtree.c, ext2fs_rb_replace_node, ext2fs_rb_replace_node , 452 ,dereference failure: invalid pointer
+ src/ext2fs/hashmap.c, ext2fs_djb2_hash, ext2fs_djb2_hash , 27 ,dereference failure: invalid pointer
+ src/ext2fs/hashmap.c, ext2fs_hashmap_add, ext2fs_hashmap_add , 51 ,division by zero
+ src/ext2fs/hashmap.c, ext2fs_hashmap_free, ext2fs_hashmap_free , 99 ,dereference failure: invalid pointer
+ src/ext2fs/hashmap.c, ext2fs_hashmap_iter_in_order, ext2fs_hashmap_iter_in_order , 86 ,dereference failure: invalid pointer
+ src/ext2fs/hashmap.c, ext2fs_hashmap_lookup, ext2fs_hashmap_lookup , 75 ,division by zero
+ src/syslinux/libfat/open.c, libfat_close, libfat_close , 116 ,dereference failure: invalid pointer freed
+ src/syslinux/libfat/open.c, libfat_open, read8 , 34 ,dereference failure: invalid pointer
+ src/syslinux/libfat/cache.c, libfat_flush, libfat_flush , 67 ,dereference failure: invalid pointer
+ src/syslinux/libfat/cache.c, libfat_get_sector, libfat_get_sector , 35 ,dereference failure: invalid pointer
+ src/syslinux/libfat/fatchain.c, libfat_nextsector, libfat_nextsector , 52 ,dereference failure: invalid pointer
+ src/syslinux/libfat/dumpdir.c, fill_utf16, read16 , 48 ,dereference failure: invalid pointer
+ src/syslinux/libfat/dumpdir.c, libfat_dumpdir, libfat_dumpdir , 59 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/syslxmod.c, generate_extents, generate_extents , 50 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/syslxmod.c, ptr, get_16 , 54 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/syslxmod.c, syslinux_patch, get_32 , 65 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/setadv.c, cleanup_adv, set_32 , 104 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/setadv.c, syslinux_setadv, syslinux_setadv , 38 ,dereference failure: invalid pointer
+ src/syslinux/libinstaller/fs.c, check_fat_bootsect, get_8 , 47 ,dereference failure: invalid pointer

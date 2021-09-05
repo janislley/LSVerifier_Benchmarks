@@ -1,0 +1,14 @@
+file_name,functionVerified,function_name,function_line,error
+ ssherr.c, ssh_err, strerror , 108 ,array bounds violated: array `sys_errlist' lower bound
+ smult_curve25519_ref.c, add, add , 16 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, crypto_scalarmult_curve25519, crypto_scalarmult_curve25519 , 254 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, freeze, freeze , 56 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, mainloop, mainloop , 145 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, mult, mult , 70 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, mult121665, mult121665 , 83 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, recip, square , 99 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, select, select , 119 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, squeeze, squeeze , 39 ,dereference failure: invalid pointer
+ smult_curve25519_ref.c, sub, sub , 26 ,dereference failure: invalid pointer
+ openbsd-compat/regress/strduptest.c, test, strlen , 78 ,dereference failure: invalid pointer
+ openbsd-compat/regress/utimensattest.c, fail, fail , 46 ,dereference failure: invalid pointer
