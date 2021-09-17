@@ -1,7 +1,71 @@
 file_name,functionVerified,function_name,function_line,error
  tools/make_charset_table.c, main, main , 28 ,dereference failure: array bounds violated
+
+	######################### LOG #########################
+	Counterexample:
+	
+	State 3 file make_charset_table.c line 28 function main thread 0
+	----------------------------------------------------
+	Violated property:
+	file make_charset_table.c line 28 function main
+	dereference failure: array bounds violated
+
+	######################### CODE #########################
+
+	if (argc != 2) {
+		printf("usage: %s <charset>\n", argv[0]);
+		return 1;
+	}
+
+	######################### OBS #########################
+	ESBMC does not check argc and argv
+   
  tools/npl/npl.c, main, main , 1934 ,dereference failure: array bounds violated
+
+	######################### LOG #########################
+	
+	Counterexample:
+	
+	State 3 file npl.c line 1934 function main thread 0
+	----------------------------------------------------
+	Violated property:
+	file npl.c line 1934 function main
+	dereference failure: array bounds violated
+
+	######################### CODE #########################
+
+	if (argc < 2) {
+		fprintf(stderr, "usage: %s filename\n", argv[0]);
+		return 1;
+	}
+
+	######################### OBS #########################
+	ESBMC does not check argc and argv
+
  tools/npl/npl.c, check_code, parse_includes , 1748 ,dereference failure: invalid pointer
+	######################### LOG #########################
+	
+	Counterexample:
+	
+	State 1 file npl.c line 1748 function parse_includes thread 0
+	----------------------------------------------------
+	Violated property:
+	file npl.c line 1748 function parse_includes
+	dereference failure: invalid pointer
+
+	######################### CODE #########################
+
+	parse_includes(npl_code_t *c)
+	{
+		/* FIX
+		if(!c)
+			return;
+		*/
+		struct _npl_decl_list *decl;
+
+	######################### OBS #########################
+	Needs to check the *c
+
  tools/npl/npl.c, count_expression_list, count_expression_list , 322 ,dereference failure: invalid pointer
  tools/npl/npl.c, decl_const, symbol_hash , 119 ,dereference failure: invalid pointer
  tools/npl/npl.c, ett_var, ett_var , 190 ,dereference failure: invalid pointer
