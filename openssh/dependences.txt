@@ -1,0 +1,7 @@
+
+.
+openbsd-compat/
+openbsd-compat/regress
+regress/
+regress/misc/fuzz-harmess
+regress/misc/sk-dummy

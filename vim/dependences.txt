@@ -1,0 +1,12 @@
+
+.
+/src/
+/src/VisVim
+/src/xdiff
+/src/libvterm
+/src/libvterm/src
+/src/libvterm/include
+/src/libvterm/include/
+/runtime/macros/maze/
+/runtime/doc/
+/runtime/tools/

@@ -1,0 +1,17 @@
+
+
+.
+bin/
+compat/
+compat/test
+doc/libvlc
+include/
+include/vlc
+lib/
+modules/
+src/
+src/
+
+
+
+

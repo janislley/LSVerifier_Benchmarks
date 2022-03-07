@@ -1,0 +1,6 @@
+file_name,functionVerified,function_name,function_line,error
+ src/xxd/xxd.c, huntype, fclose , 50 ,dereference failure: invalid pointer freed
+ src/tee/tee.c, main, main , 96 ,dereference failure: array bounds violated
+ src/tee/tee.c, myfread, myfread , 72 ,dereference failure: invalid pointer
+ runtime/tools/ccfilter.c, main, main , 131 ,dereference failure: array bounds violated
+ runtime/doc/doctags.c, main, main , 34 ,dereference failure: array bounds violated

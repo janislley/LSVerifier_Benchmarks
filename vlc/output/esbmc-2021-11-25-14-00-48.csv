@@ -1,0 +1,416 @@
+file_name,functionVerified,function_name,function_line,error
+ compat/strtok_r.c, strtok_r, strtok_r , 44 ,dereference failure: invalid pointer
+ compat/sincos.c, sincos, sincos , 29 ,dereference failure: invalid pointer
+ compat/sincos.c, sincosf, sincosf , 35 ,dereference failure: invalid pointer
+ compat/strverscmp.c, strverscmp, strverscmp , 76 ,dereference failure: invalid pointer
+ compat/realpath.c, realpath, realpath , 38 ,dereference failure: invalid pointer
+ compat/timegm.c, timegm, timegm , 46 ,dereference failure: invalid pointer
+ compat/gmtime_r.c, gmtime_r, gmtime_r , 89 ,dereference failure: array bounds violated
+ compat/memrchr.c, memrchr, memrchr , 36 ,dereference failure: invalid pointer
+ compat/strtoll.c, strtoll, strtoll , 41 ,dereference failure: invalid pointer
+ compat/strndup.c, strndup, memcpy , 264 ,dereference failure: invalid pointer
+ compat/strnstr.c, strnstr, strnstr , 112 ,assertion needle != NULL
+ compat/nrand48.c, erand48, iterate48 , 33 ,dereference failure: invalid pointer
+ compat/strdup.c, strdup, strlen , 78 ,dereference failure: invalid pointer
+ compat/strsep.c, strsep, strpbrk , 197 ,dereference failure: invalid pointer
+ compat/swab.c, swab, swab , 39 ,dereference failure: invalid pointer
+ compat/strcasestr.c, strcasestr, strcasestr , 47 ,dereference failure: invalid pointer
+ compat/strnlen.c, strnlen, memchr , 319 ,dereference failure: invalid pointer
+ compat/getdelim.c, getdelim, getdelim , 32 ,dereference failure: invalid pointer
+ compat/getdelim.c, getline, getdelim , 31 ,dereference failure: invalid pointer
+ src/text/url.c, encode_URI_bytes, encode_URI_bytes , 108 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_UrlClean, vlc_UrlClean , 600 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_UrlParse, vlc_iri2uri , 369 ,dereference failure: array bounds violated
+ src/text/url.c, vlc_UrlParseFixup, vlc_iri2uri , 340 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_UrlParseInner, vlc_UrlParseInner , 412 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_uri2path, strstr , 215 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_uri_decode, vlc_uri_decode , 67 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_uri_fixup, vlc_uri_fixup , 887 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_uri_merge_paths, strchr , 127 ,dereference failure: invalid pointer
+ src/text/url.c, vlc_uri_remove_dot_segments, strcspn , 182 ,dereference failure: invalid pointer
+ src/text/filesystem.c, compar_void, compar_void , 114 ,dereference failure: invalid pointer
+ src/text/memstream.c, vlc_memstream_close, vlc_memstream_close , 122 ,dereference failure: invalid pointer
+ src/text/memstream.c, vlc_memstream_flush, vlc_memstream_flush , 117 ,dereference failure: invalid pointer
+ src/text/memstream.c, vlc_memstream_open, vlc_memstream_open , 107 ,dereference failure: invalid pointer
+ src/text/memstream.c, vlc_memstream_putc, vlc_memstream_write , 860 ,dereference failure: invalid pointer
+ src/text/unicode.c, FromCharset, FromCharset , 260 ,dereference failure: invalid pointer
+ src/text/unicode.c, ToCharset, ToCharset , 302 ,dereference failure: invalid pointer
+ src/text/unicode.c, vlc_towc, vlc_towc , 205 ,assertion
+ src/misc/mtime.c, date_Change, date_Change , 81 ,division by zero
+ src/misc/mtime.c, date_Init, date_Init , 71 ,dereference failure: invalid pointer
+ src/misc/md5.c, md5_init, md5_init , 60 ,dereference failure: invalid pointer
+ src/misc/md5.c, md5_write, md5_write , 226 ,dereference failure: invalid pointer
+ src/misc/md5.c, transform, transform , 87 ,dereference failure: invalid pointer
+ src/misc/md5.c, vlc_hash_md5_Update, md5_write , 238 ,dereference failure: invalid pointer
+ src/misc/objres.c, vlc_obj_free, vlc_objres_remove , 118 ,dereference failure: invalid pointer
+ src/misc/objres.c, vlc_obj_malloc, vlc_objres_push , 69 ,dereference failure: invalid pointer
+ src/misc/objres.c, vlc_obj_res, vlc_obj_res , 45 ,dereference failure: invalid pointer
+ src/misc/block.c, BlockMetaCopy, BlockMetaCopy , 92 ,dereference failure: invalid pointer
+ src/misc/block.c, block_Init, block_Init , 64 ,dereference failure: invalid pointer
+ src/misc/block.c, block_Realloc, block_Release , 141 ,dereference failure: invalid pointer
+ src/misc/block.c, block_heap_Alloc, block_heap_Alloc , 259 ,dereference failure: invalid pointer freed
+ src/misc/block.c, block_heap_Release, block_heap_Release , 245 ,dereference failure: invalid pointer
+ src/misc/epg.c, vlc_epg_AddEvent, vlc_epg_AddEvent , 138 ,dereference failure: invalid pointer
+ src/misc/epg.c, vlc_epg_Delete, vlc_epg_Clean , 128 ,dereference failure: invalid pointer
+ src/misc/epg.c, vlc_epg_Init, vlc_epg_Init , 116 ,dereference failure: invalid pointer
+ src/misc/epg.c, vlc_epg_event_Init, vlc_epg_event_Init , 57 ,dereference failure: invalid pointer
+ src/misc/fifo.c, block_FifoRelease, vlc_fifo_DequeueAllUnlocked , 85 ,dereference failure: invalid pointer
+ src/misc/fifo.c, vlc_fifo_QueueUnlocked, vlc_fifo_QueueUnlocked , 62 ,dereference failure: invalid pointer
+ src/misc/xml.c, xml_Create, xml_Create , 110 ,dereference failure: invalid pointer
+ src/misc/xml.c, xml_Delete, xml_Delete , 125 ,dereference failure: invalid pointer
+ src/misc/xml.c, xml_ReaderCreate, xml_ReaderCreate , 79 ,dereference failure: invalid pointer
+ src/misc/es_format.c, es_format_Copy, es_format_Copy , 440 ,dereference failure: invalid pointer
+ src/misc/es_format.c, es_format_Init, es_format_Init , 413 ,dereference failure: invalid pointer
+ src/misc/es_format.c, es_format_InitFromVideo, es_format_InitFromVideo , 432 ,dereference failure: invalid pointer
+ src/misc/es_format.c, video_format_CopyCrop, video_format_CopyCrop , 184 ,dereference failure: invalid pointer
+ src/misc/es_format.c, video_format_FixRgb, video_format_FixRgb , 40 ,dereference failure: invalid pointer
+ src/misc/es_format.c, video_format_IsSimilar, video_format_IsSimilar , 341 ,dereference failure: invalid pointer
+ src/misc/es_format.c, video_format_Print, video_format_Print , 394 ,dereference failure: invalid pointer
+ src/misc/es_format.c, video_format_ScaleCropAr, video_format_ScaleCropAr , 194 ,division by zero
+ src/misc/queue.c, vlc_queue_Init, vlc_queue_Init , 73 ,dereference failure: invalid pointer
+ src/misc/fourcc_gen.c, cmp_entry, memcmp , 310 ,dereference failure: invalid pointer
+ src/misc/events.c, vlc_event_attach, vlc_event_attach , 165 ,dereference failure: invalid pointer
+ src/misc/events.c, vlc_event_send, vlc_event_send , 109 ,dereference failure: invalid pointer
+ src/misc/probe.c, vlc_probe, vlc_probe , 37 ,dereference failure: invalid pointer
+ src/misc/text_style.c, text_segment_ChainDelete, text_segment_ChainDelete , 436 ,dereference failure: invalid pointer
+ src/misc/text_style.c, text_segment_Copy, text_segment_Copy , 449 ,dereference failure: invalid pointer
+ src/misc/text_style.c, text_segment_Delete, text_segment_Delete , 425 ,dereference failure: invalid pointer
+ src/misc/text_style.c, text_segment_ruby_ChainDelete, text_segment_ruby_ChainDelete , 334 ,dereference failure: invalid pointer freed
+ src/misc/text_style.c, text_style_Copy, text_style_Copy , 251 ,dereference failure: invalid pointer
+ src/misc/text_style.c, text_style_Delete, text_style_Delete , 323 ,dereference failure: invalid pointer freed
+ src/misc/text_style.c, text_style_Merge, text_style_Merge , 272 ,dereference failure: invalid pointer
+ src/misc/text_style.c, vlc_html_color, vlc_html_color , 479 ,dereference failure: invalid pointer
+ src/misc/httpcookies.c, cookie_default_path, cookie_default_path , 164 ,dereference failure: invalid pointer
+ src/misc/httpcookies.c, vlc_http_cookies_destroy, vlc_http_cookies_destroy , 289 ,dereference failure: invalid pointer
+ src/misc/httpcookies.c, vlc_http_cookies_fetch, cookie_should_be_sent , 15 ,dereference failure: invalid pointer
+ src/config/getopt.c, exchange, exchange , 43 ,dereference failure: invalid pointer
+ src/config/getopt.c, vlc_getopt_long, vlc_getopt_long , 151 ,dereference failure: invalid pointer
+ src/config/cmdline.c, config_LoadCmdLine, config_LoadCmdLine ,.c line 78 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_Clear, randomizer_Clear , 93 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_Count, randomizer_Count , 297 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_HasNext, randomizer_HasNext , 374 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_HasPrev, randomizer_HasPrev , 368 ,division by zero
+ src/playlist/randomizer.c, randomizer_IndexOf, randomizer_IndexOf , 619 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_Init, randomizer_Init , 82 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_Next, swap_items , 313 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_PeekNext, swap_items , 312 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_PeekPrev, randomizer_PeekPrev , 381 ,division by zero
+ src/playlist/randomizer.c, randomizer_RemoveAt, randomizer_RemoveAt , 487 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_Reshuffle, randomizer_Reshuffle , 304 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_SelectIndex, randomizer_SelectIndex , 438 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, randomizer_SetLoop, randomizer_SetLoop , 283 ,dereference failure: invalid pointer
+ src/playlist/randomizer.c, swap_items, swap_items , 314 ,dereference failure: invalid pointer
+ src/clock/clock_internal.c, AvgGet, AvgGet , 72 ,dereference failure: invalid pointer
+ src/clock/clock_internal.c, AvgRescale, AvgRescale , 77 ,dereference failure: invalid pointer
+ src/clock/clock_internal.c, AvgUpdate, AvgUpdate , 55 ,dereference failure: invalid pointer
+ src/clock/clock.c, main_stream_to_system, main_stream_to_system , 83 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_ConvertToSystemLocked, vlc_clock_ConvertToSystemLocked , 530 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_CreateSlave, vlc_clock_CreateSlave , 656 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_Lock, vlc_clock_Lock , 350 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_Reset, vlc_clock_Reset , 518 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_SetDelay, vlc_clock_SetDelay , 523 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_Unlock, vlc_clock_Unlock , 356 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_Update, vlc_clock_Update , 506 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_UpdateVideo, vlc_clock_UpdateVideo , 513 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_Wake, vlc_clock_Wake , 384 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_main_SetDejitter, vlc_clock_main_SetDejitter , 462 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_main_SetInputDejitter, vlc_clock_main_SetInputDejitter , 454 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_master_to_system_locked, vlc_clock_master_to_system_locked , 284 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_monotonic_to_system_locked, vlc_clock_monotonic_to_system_locked , 232 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_set_master_callbacks, vlc_clock_set_master_callbacks , 535 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_set_slave_callbacks, vlc_clock_set_slave_callbacks , 543 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_slave_set_delay, vlc_clock_slave_set_delay , 338 ,dereference failure: invalid pointer
+ src/clock/clock.c, vlc_clock_slave_to_system_locked, vlc_clock_slave_to_system_locked , 266 ,dereference failure: invalid pointer
+ src/preparser/art.c, ArtCacheName, ArtCachePath , 134 ,dereference failure: invalid pointer
+ src/preparser/art.c, GetDirByItemUIDs, GetDirByItemUIDs , 235 ,dereference failure: invalid pointer freed
+ src/extras/libc.c, vlc_ureduce, vlc_ureduce , 508 ,dereference failure: invalid pointer
+ src/network/http_auth.c, AuthGetParamConcat, strstr , 212 ,dereference failure: invalid pointer
+ src/network/http_auth.c, vlc_http_auth_Deinit, vlc_http_auth_Deinit , 475 ,dereference failure: invalid pointer
+ src/network/http_auth.c, vlc_http_auth_FormatAuthorizationHeader, vlc_http_auth_FormatAuthorizationHeader , 463 ,dereference failure: invalid pointer freed
+ src/network/http_auth.c, vlc_http_auth_ParseWwwAuthenticateHeader, vlc_http_auth_ParseWwwAuthenticateHeader , 236 ,dereference failure: invalid pointer
+ src/network/udp.c, net_ConnectDgram, net_ConnectDgram , 584 ,dereference failure: invalid pointer
+ src/network/udp.c, net_ListenSingle, net_SetupDgramSocket , 135 ,dereference failure: invalid pointer
+ src/network/udp.c, net_SetMcastOut, net_SetMcastOut , 291 ,dereference failure: invalid pointer
+ src/network/udp.c, net_SetupDgramSocket, net_SetupDgramSocket , 133 ,dereference failure: invalid pointer
+ src/test/url.c, test, test , 66 ,dereference failure: invalid pointer
+ src/test/dictionary.c, test_dictionary_validity, vlc_dictionary_all_keys , 532 ,dereference failure: invalid pointer
+ src/test/vector.c, test_vector_exp_growth, test_vector_exp_growth , 316 ,dereference failure: NULL pointer
+ src/test/thread.c, thread_func_cond, thread_func_cond , 166 ,dereference failure: invalid pointer
+ src/test/executor.c, RunIncrement, RunIncrement , 56 ,dereference failure: invalid pointer
+ src/test/timer.c, callback, callback , 48 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_config_create, vlc_config_create , 142 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_module_create, vlc_module_create , 50 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_module_destroy, vlc_module_destroy , 86 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_plugin_describe, vlc_plugin_describe , 448 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_plugin_get_symbol, vlc_plugin_get_symbol , 565 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_plugin_get_symbols, vlc_plugin_get_symbols , 546 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_plugin_resolve, vlc_plugin_get_symbol , 576 ,dereference failure: invalid pointer
+ src/modules/entry.c, vlc_plugin_symbol_compare, vlc_plugin_symbol_compare , 466 ,dereference failure: invalid pointer
+ src/posix/wait.c, vlc_timespec_adjust, vlc_timespec_adjust , 121 ,dereference failure: invalid pointer
+ src/posix/thread.c, vlc_join, pthread_join_noswitch , 269 ,array bounds violated: array `__ESBMC_pthread_thread_ended' lower bound
+ src/posix/thread.c, vlc_threadvar_delete, vlc_threadvar_delete , 113 ,dereference failure: invalid pointer
+ bin/rootwrap.c, main, main , 256 ,dereference failure: array bounds violated
+ bin/rootwrap.c, rootprocess, rootprocess , 177 ,dereference failure: invalid pointer
+ test/libvlc/media_discoverer.c, main, main , 102 ,dereference failure: array bounds violated
+ test/libvlc/media_discoverer.c, ml_item_added, ml_item_event , 28 ,dereference failure: invalid pointer
+ test/libvlc/media_player.c, test_media_player_programs, test_media_player_programs , 550 ,array bounds violated: array `new_argv' lower bound
+ test/libvlc/media_player.c, test_media_player_tracks, test_media_player_tracks , 344 ,array bounds violated: array `new_argv' lower bound
+ test/libvlc/media_player.c, tracks_check_all_events, tracks_check_all_events , 278 ,dereference failure: invalid pointer
+ test/src/misc/bits.c, bs_skipeven_bytes_forward, bs_skipeven_bytes_forward , 221 ,dereference failure: invalid pointer
+ test/modules/packetizer/hxxx.c, test_iterators, startcode_FindAnnexB_Bits , 131 ,dereference failure: NULL pointer
+ test/modules/packetizer/hxxx.c, testannexbin, testannexbin , 94 ,dereference failure: invalid pointer
+ test/modules/packetizer/helpers.c, check_set, check_set , 49 ,dereference failure: invalid pointer
+ test/modules/packetizer/helpers.c, run_annexb_sets, startcode_FindAnnexB_Bits , 130 ,Same object violation
+ test/modules/demux/timestamps_filter.c, trash_es_out_Add, trash_es_out_Add , 65 ,dereference failure: invalid pointer
+ test/modules/demux/ts_pes.c, Parse, block_ChainGather , 414 ,dereference failure: invalid pointer
+ modules/misc/playlist/html.c, Export_HTML, Export_HTML , 98 ,dereference failure: invalid pointer
+ modules/misc/playlist/xspf.c, xspf_export_item, xspf_export_item , 91 ,dereference failure: invalid pointer
+ modules/misc/playlist/m3u.c, DoExport, DoExport , 53 ,dereference failure: invalid pointer
+ modules/misc/webservices/musicbrainz.c, musicbrainz_lookup_recording_by_discid, musicbrainz_lookup_recording_by_discid , 303 ,dereference failure: invalid pointer
+ modules/misc/webservices/musicbrainz.c, musicbrainz_recording_release, musicbrainz_recording_release , 198 ,dereference failure: invalid pointer
+ modules/misc/webservices/musicbrainz.c, musicbrainz_release_covert_art, musicbrainz_release_covert_art , 324 ,dereference failure: invalid pointer freed
+ modules/misc/webservices/json.c, json_value_free, json_value_free , 835 ,dereference failure: invalid pointer
+ modules/misc/webservices/json.c, new_value, new_value , 103 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_create_DecoderConfigurationRecord, AV1_create_DecoderConfigurationRecord , 615 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_get_chroma, AV1_get_chroma , 318 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_get_colorimetry, AV1_get_colorimetry , 554 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_get_frame_max_dimensions, AV1_get_frame_max_dimensions , 521 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_get_frame_rate, AV1_get_frame_rate , 541 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_get_profile_level, AV1_get_profile_level , 529 ,dereference failure: invalid pointer
+ modules/packetizer/av1_obu.c, AV1_release_frame_header, AV1_release_frame_header , 482 ,dereference failure: invalid pointer freed
+ modules/packetizer/av1_obu.c, AV1_release_sequence_header, AV1_release_sequence_header , 294 ,dereference failure: invalid pointer freed
+ modules/packetizer/av1_obu.c, av1_parse_uncompressed_header, av1_parse_uncompressed_header , 433 ,dereference failure: invalid pointer
+ modules/packetizer/hxxx_sei.c, HxxxParseSEI, bs_read , 209 ,dereference failure: NULL pointer
+ modules/packetizer/hevc_nal.c, get_hvcC_to_AnnexB_NAL_size, get_hvcC_to_AnnexB_NAL_size , 359 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_compute_picture_order_count, hevc_compute_picture_order_count , 1589 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_create_dcr, hevc_create_dcr , 1448 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_dcr_params_from_vps, hevc_dcr_params_from_vps , 1413 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_frame_is_progressive, hevc_frame_is_progressive , 1681 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_aspect_ratio, hevc_get_aspect_ratio , 1160 ,array bounds violated: array `ar_table' upper bound
+ modules/packetizer/hevc_nal.c, hevc_get_chroma_luma, hevc_get_chroma_luma , 1179 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_colorimetry, hevc_get_colorimetry , 1195 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_frame_rate, hevc_get_frame_rate , 1125 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_max_num_reorder, hevc_get_max_num_reorder , 1089 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_num_clock_ts, hevc_get_num_clock_ts , 1697 ,array bounds violated: array `rgi_numclock' upper bound
+ modules/packetizer/hevc_nal.c, hevc_get_picture_CtbsYsize, hevc_get_picture_CtbsYsize , 1102 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_picture_size, hevc_get_picture_size , 1060 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_pps_sps_id, hevc_get_pps_sps_id , 1036 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_profile_level, hevc_get_profile_level , 1325 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_slice_pps_id, hevc_get_slice_pps_id , 1041 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_slice_type, hevc_get_slice_type , 1314 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_sps_profile_tier_level, hevc_get_sps_profile_tier_level , 1050 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_vlc_profile, hevc_get_vlc_profile , 1369 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_get_xps_id, hevc_get_xps_id , 526 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_hvcC_to_AnnexB_NAL, hevc_hvcC_to_AnnexB_NAL , 375 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_make_indication, hevc_make_indication , 1344 ,dereference failure: invalid pointer
+ modules/packetizer/hevc_nal.c, hevc_rbsp_release_pps, hevc_rbsp_release_pps , 1023 ,dereference failure: invalid pointer freed
+ modules/packetizer/hevc_nal.c, hevc_rbsp_release_slice_header, hevc_rbsp_release_slice_header , 1281 ,dereference failure: invalid pointer freed
+ modules/packetizer/hevc_nal.c, hevc_rbsp_release_sps, hevc_rbsp_release_sps , 926 ,dereference failure: invalid pointer freed
+ modules/packetizer/hevc_nal.c, hevc_rbsp_release_vps, hevc_rbsp_release_vps , 691 ,dereference failure: invalid pointer freed
+ modules/packetizer/hevc_nal.c, hevc_release_sei_pic_timing, hevc_release_sei_pic_timing , 1634 ,dereference failure: invalid pointer freed
+ modules/packetizer/h264_nal.c, h264_AVC_to_AnnexB, h264_AVC_to_AnnexB , 204 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_avcC_to_AnnexB_NAL, h264_avcC_to_AnnexB_NAL , 154 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_chroma_luma, h264_get_chroma_luma , 845 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_colorimetry, h264_get_colorimetry , 862 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_dpb_values, h264_get_dpb_values , 777 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_level_limits, h264_get_level_limits , 745 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_picture_size, h264_get_picture_size , 813 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_get_profile_level, h264_get_profile_level , 871 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_isavcC, h264_isavcC , 100 ,dereference failure: invalid pointer
+ modules/packetizer/h264_nal.c, h264_release_sps, h264_release_sps , 270 ,dereference failure: invalid pointer freed
+ modules/packetizer/h264_nal.c, h264_release_sps_extension, h264_release_sps_extension , 629 ,dereference failure: invalid pointer freed
+ modules/packetizer/dts_header.c, Buf14To16, Buf14To16 , 63 ,dereference failure: invalid pointer
+ modules/packetizer/dts_header.c, BufLeToBe, BufLeToBe , 42 ,dereference failure: invalid pointer
+ modules/packetizer/dts_header.c, dca_get_channels, dca_get_channels , 192 ,dereference failure: invalid pointer
+ modules/packetizer/dts_header.c, dts_header_ParseSubstream, bs_read1 , 229 ,dereference failure: NULL pointer
+ modules/packetizer/h264_slice.c, h264_decode_slice, h264_slice_init , 59 ,dereference failure: invalid pointer
+ modules/packetizer/h264_slice.c, h264_get_num_ts, h264_get_num_ts , 379 ,array bounds violated: array `rgi_numclock' upper bound
+ modules/packetizer/h264_slice.c, h264_infer_pic_struct, h264_infer_pic_struct , 357 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_amr, rtp_packetize_amr , 1407 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_g726, rtp_packetize_g726 , 1574 ,division by zero
+ modules/stream_out/rtpfmt.c, rtp_packetize_h263, rtp_packetize_h263 , 1181 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_h264, rtp_packetize_h264 , 1307 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_h264_nal, rtp_packetize_h264_nal , 1252 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_h265, rtp_packetize_h265 , 1389 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_jpeg, rtp_packetize_jpeg , 1826 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_mp4a_latm, rtp_packetize_mp4a_latm , 1087 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_mpv, rtp_packetize_mpv , 858 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_pcm, rtp_packetize_pcm , 1024 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_rawvideo, rtp_packetize_rawvideo , 1701 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_swab, rtp_packetize_swab , 1055 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_t140, rtp_packetize_t140 , 1446 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, rtp_packetize_vp8, rtp_packetize_vp8 , 1630 ,dereference failure: invalid pointer
+ modules/stream_out/rtpfmt.c, sprintf_hexa, sprintf_hexa , 161 ,dereference failure: invalid pointer
+ modules/control/motionlib.c, motion_destroy, motion_destroy , 120 ,dereference failure: invalid pointer freed
+ modules/control/cli/playlist.c, PlaylistDoVoid, PlaylistDoVoid , 172 ,dereference failure: invalid pointer
+ modules/control/cli/playlist.c, PlaylistGoto, PlaylistGoto , 342 ,dereference failure: invalid pointer
+ modules/video_output/xcb/keysym.c, main, parse , 96 ,dereference failure: invalid pointer
+ modules/video_output/xcb/keysym.c, printkey, printkey , 58 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, h264_helper_get_annexb_config, hxxx_helper_get_annexb_config , 717 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_check_sei_au, helper_check_sei_au , 282 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_clear_sei, helper_clear_sei , 61 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_nal_length_valid, helper_nal_length_valid , 152 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_avcC_h264, helper_process_avcC_h264 , 403 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_block_h264_annexb, helper_process_block_hxxx_annexb , 538 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_block_h264_annexb2avcc, helper_process_block_h264_annexb2avcc , 594 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_block_h264_avcc, helper_process_block_h264_avcc , 611 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_block_hevc_annexb2hvcc, helper_process_block_hevc_annexb2hvcc , 602 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_block_hevc_hvcc, hevc_helper_parse_nal , 298 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, helper_process_hvcC_hevc, helper_process_hvcC_hevc , 474 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hevc_helper_get_hvcc_config, hevc_helper_get_hvcc_config , 825 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hevc_helper_set_extra, hevc_ishvcC , 222 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hxxx_helper_get_annexb_config, hxxx_helper_get_annexb_config , 106 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hxxx_helper_get_chroma_chroma, h264_helper_get_current_sps , 869 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hxxx_helper_get_current_profile_level, hxxx_helper_get_current_profile_level , 946 ,dereference failure: invalid pointer
+ modules/codec/hxxx_helper.c, hxxx_helper_get_current_sar, hxxx_helper_get_current_sar , 918 ,dereference failure: invalid pointer
+ modules/codec/atsc_a65.c, atsc_a65_Decode_simple_UTF16_string, atsc_a65_Decode_simple_UTF16_string , 244 ,dereference failure: invalid pointer
+ modules/codec/webvtt/css_style.c, ShadowDrop, ShadowDrop , 88 ,dereference failure: invalid pointer
+ modules/visualization/visual/fft.c, fft_calculate, fft_calculate , 178 ,dereference failure: invalid pointer
+ modules/visualization/visual/fft.c, fft_close, fft_close , 104 ,dereference failure: invalid pointer freed
+ modules/visualization/visual/fft.c, fft_output, fft_output , 147 ,dereference failure: invalid pointer
+ modules/visualization/visual/fft.c, fft_perform, fft_prepare , 123 ,dereference failure: invalid pointer
+ modules/visualization/visual/fft.c, fft_prepare, fft_prepare , 124 ,dereference failure: invalid pointer
+ modules/mux/mpeg/csa.c, csa_BlockCypher, csa_BlockCypher , 583 ,dereference failure: invalid pointer
+ modules/mux/mpeg/csa.c, csa_BlockDecypher, csa_BlockDecypher , 547 ,dereference failure: invalid pointer
+ modules/mux/mpeg/csa.c, csa_ComputeKey, csa_ComputeKey , 330 ,dereference failure: invalid pointer
+ modules/mux/mpeg/csa.c, csa_StreamCypher, csa_StreamCypher , 390 ,dereference failure: invalid pointer
+ modules/mux/mpeg/repack.c, PES_Repack, PES_Repack , 179 ,dereference failure: invalid pointer
+ modules/mux/mpeg/repack.c, PES_RepackMP4V, PES_RepackMP4V , 140 ,dereference failure: invalid pointer
+ modules/demux/ttml.c, tt_CloseDemux, es_out_Del , 155 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, BuildIndex, BuildIndex , 343 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, DemuxStream, DemuxStream , 607 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, MakeExtradata, MakeExtradata , 426 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, ParserCueDoneHandler, ParserCueDoneHandler , 213 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, ParserGetCueHandler, ParserGetCueHandler , 185 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, ParserHeaderHandler, memstream_Append , 149 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, ProbeWEBVTT, ProbeWEBVTT , 621 ,dereference failure: invalid pointer
+ modules/demux/webvtt.c, demux_From, demux_From , 355 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_sl.c, SLPackets_Section_Handler, SetupISO14496LogicalStream , 97 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_sl.c, SL_stream_processor_Delete, SL_stream_processor_Delete , 210 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_sl.c, SL_stream_processor_Reset, SL_stream_processor_Reset , 218 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_pes.c, ts_pes_Drain, ts_pes_Push , 105 ,dereference failure: invalid pointer
+ modules/demux/mpeg/mpeg4_iod.c, DecodeODCommand, ODGetBytes , 80 ,dereference failure: invalid pointer
+ modules/demux/mpeg/mpeg4_iod.c, DecodeSLHeader, DecodeSLHeader , 540 ,dereference failure: invalid pointer
+ modules/demux/mpeg/mpeg4_iod.c, ODFree, ODFree , 502 ,dereference failure: invalid pointer
+ modules/demux/mpeg/mpeg4_iod.c, OD_Desc_Read, OD_Desc_Read , 361 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_pid.c, PIDSetup, PIDSetup , 183 ,dereference failure: invalid pointer
+ modules/demux/mpeg/ts_pid.c, ts_pid_list_Release, ts_pid_list_Release , 51 ,dereference failure: invalid pointer
+ modules/text_renderer/freetype/lru.c, vlc_lru_Apply, vlc_list_it_next , 230 ,dereference failure: invalid pointer
+ modules/text_renderer/freetype/lru.c, vlc_lru_Get, DictHash , 396 ,division by zero
+ modules/video_filter/puzzle/puzzle_bezier.c, puzzle_curve_H_2_V, puzzle_curve_H_2_V , 148 ,dereference failure: invalid pointer
+ modules/video_filter/puzzle/puzzle_bezier.c, puzzle_curve_H_2_negative, puzzle_curve_H_2_negative , 168 ,dereference failure: invalid pointer
+ modules/video_filter/puzzle/puzzle_bezier.c, puzzle_curve_V_2_negative, puzzle_curve_V_2_negative , 188 ,dereference failure: invalid pointer
+ modules/video_filter/deinterlace/merge.c, Merge8BitGeneric, Merge8BitGeneric , 52 ,dereference failure: invalid pointer
+ modules/access/directory.c, DirRead, DirRead , 145 ,dereference failure: invalid pointer
+ modules/access/file.c, FileOpen, FileOpen , 143 ,dereference failure: invalid pointer
+ modules/access/file.c, FileSeek, FileSeek , 295 ,dereference failure: invalid pointer
+ modules/access/http.c, AuthCheckReply, AuthCheckReply , 981 ,dereference failure: invalid pointer
+ modules/access/http.c, Close, vlc_tls_Close , 400 ,dereference failure: invalid pointer
+ modules/access/http.c, Connect, Connect , 616 ,dereference failure: invalid pointer
+ modules/access/http.c, Disconnect, Disconnect , 963 ,dereference failure: invalid pointer
+ modules/access/http.c, ReadData, ReadData , 399 ,dereference failure: invalid pointer
+ modules/access/http.c, ReadICYMeta, ReadData , 398 ,dereference failure: invalid pointer
+ modules/access/rtp/rtpfmt.c, codec_init, es_out_Add , 150 ,dereference failure: invalid pointer
+ modules/access/rtp/rtpfmt.c, stream_init, stream_init , 68 ,dereference failure: invalid pointer
+ modules/access/rtp/sdp.c, vlc_sdp_media_free, vlc_sdp_media_free , 126 ,dereference failure: invalid pointer
+ modules/access/rtp/sdp.c, vlc_sdp_media_parse, vlc_sdp_media_free , 136 ,dereference failure: invalidated dynamic object
+ modules/access/rtp/session.c, rtp_find_ptype, rtp_find_ptype , 224 ,dereference failure: invalid pointer
+ modules/access/rtp/session.c, rtp_session_destroy, rtp_source_destroy , 196 ,dereference failure: invalid pointer
+ modules/access/rtp/session.c, rtp_source_destroy, rtp_source_destroy , 195 ,dereference failure: invalid pointer
+ modules/access/rtp/xiph.c, xiph_header, xiph_header , 101 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, APDUGetTag, APDUGetTag , 788 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, CAPMTNeedsDescrambling, CAPMTNeedsDescrambling , 1057 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, CheckSystemID, CheckSystemID , 1042 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, ConditionalAccessHandle, ConditionalAccessHandle , 1337 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, DateTimeHandle, DateTimeHandle , 1452 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, DateTimeManage, DateTimeManage , 1487 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, DateTimeSend, DateTimeSend , 1415 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, MMIClose, MMIClose , 1818 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, MMIFree, MMIFree , 1582 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, MMIGetText, MMIGetText , 1664 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, MMIHandleEnq, MMIHandleEnq , 1691 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, MMIHandleMenu, MMIFree , 958 ,dereference failure: invalid pointer freed
+ modules/access/dtv/en50221.c, MMIOpen, MMIOpen , 1842 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, ResourceIdToInt, ResourceIdToInt , 362 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, SessionClose, SessionClose , 636 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, SessionOpen, SessionOpen , 445 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, SessionSendClose, SessionSendClose , 608 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, SetLength, SetLength , 189 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, TPDURecv, TPDURecv , 273 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, en50221_End, en50221_End , 2612 ,dereference failure: invalid pointer
+ modules/access/dtv/en50221.c, en50221_SetCAPMT, en50221_SetCAPMT , 2185 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, DMXUnsetFilter, DMXUnsetFilter , 1174 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, DVRClose, DVRClose , 1229 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, DVROpen, DVROpen , 1217 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, DoDiseqc, DoDiseqc , 734 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendClose, FrontendClose , 201 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendFillScanParameter, ScanParametersDvbS , 378 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendGetStatistic, FrontendGetStatistic , 354 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendGetStatus, FrontendGetStatus , 365 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendInfo, FrontendInfo , 473 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendPoll, FrontendPoll , 267 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendSetATSC, FrontendSetATSC , 1010 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendSetOFDM, FrontendSetOFDM , 979 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendSetQAM, FrontendSetQAM , 849 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, FrontendSetQPSK, DoDiseqc , 668 ,dereference failure: invalid pointer
+ modules/access/dvb/linux_dvb.c, ScanParametersDvbT, ScanParametersDvbT , 422 ,dereference failure: invalid pointer
+ modules/access/dvb/scan_list.c, scan_list_dvbv5_entry_fill, scan_token_strip , 115 ,dereference failure: NULL pointer
+ modules/access/dvb/scan_list.c, scan_list_dvbv5_load, scan_list_dvbv5_load , 305 ,dereference failure: NULL pointer
+ modules/access/dvb/scan_list.c, scan_list_entries_release, scan_list_entries_release , 276 ,dereference failure: invalid pointer
+ modules/access/http/h2conn_test.c, conn_destroy, vlc_tls_Shutdown , 382 ,dereference failure: NULL pointer
+ modules/access/http/file.c, vlc_http_file_read, vlc_http_file_read , 239 ,dereference failure: invalid pointer
+ modules/access/http/file.c, vlc_http_file_req, vlc_http_file_req , 54 ,dereference failure: invalid pointer
+ modules/access/http/h2frame_test.c, localize, localize , 265 ,dereference failure: invalid pointer
+ modules/access/http/h2frame_test.c, priority, retype , 247 ,dereference failure: invalid pointer
+ modules/access/http/h2frame_test.c, reflag, reflag , 253 ,dereference failure: invalid pointer
+ modules/access/http/access.c, Open, Open , 174 ,dereference failure: invalid pointer
+ modules/access/http/chunked.c, vlc_chunked_read, vlc_chunked_read , 95 ,dereference failure: invalid pointer
+ modules/access/http/h2frame.c, vlc_h2_frame_flags, vlc_h2_frame_flags , 84 ,dereference failure: invalid pointer
+ modules/access/http/h2frame.c, vlc_h2_parse_error, vlc_h2_parse_error , 476 ,dereference failure: invalid pointer
+ modules/access/http/h2frame.c, vlc_h2_parse_failed, vlc_h2_parse_failed , 1007 ,dereference failure: invalid pointer freed
+ modules/access/http/h2frame.c, vlc_h2_parse_frame_data, vlc_h2_parse_frame_data , 603 ,dereference failure: invalid pointer
+ modules/access/http/h2frame.c, vlc_h2_parse_frame_priority, vlc_h2_stream_error , 483 ,dereference failure: invalid pointer
+ modules/access/http/h2frame.c, vlc_h2_stream_lookup, vlc_h2_stream_lookup , 488 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_is_agent, vlc_http_is_agent , 747 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_is_token, vlc_http_token_length , 604 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_destroy, vlc_http_stream_close , 430 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_agent, vlc_http_msg_get_agent , 797 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_cookies, vlc_http_msg_get_cookies , 943 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_final, vlc_http_msg_get_status , 170 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_method, vlc_http_msg_get_method , 175 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_path, vlc_http_msg_get_path , 190 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_scheme, vlc_http_msg_get_scheme , 180 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_get_size, vlc_http_msg_get_size , 907 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_h2_frame, vlc_http_msg_h2_frame , 428 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_iterate, vlc_http_stream_read_headers , 385 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_read, vlc_http_stream_read , 419 ,dereference failure: invalid pointer
+ modules/access/http/message.c, vlc_http_msg_write, vlc_http_stream_write , 405 ,dereference failure: invalid pointer
+ modules/access/http/resource.c, vlc_http_res_set_login, vlc_http_res_set_login , 339 ,dereference failure: invalid pointer freed
+ modules/access/http/hpack.c, hpack_decode_byte_huffman, hpack_decode_byte_huffman , 219 ,dereference failure: invalid pointer
+ modules/access/http/connmgr.c, vlc_http_mgr_get_jar, vlc_http_mgr_get_jar , 287 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CdTextAppendPayload, CdTextAppendPayload , 1197 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CdTextParse, CdTextParse , 1353 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CdTextParsePackText, CdTextParsePackText , 1306 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CdTextPayloadLength, CdTextPayloadLength , 1256 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CdTextRead, CdTextRead , 1569 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, CloseVCDImage, CloseVCDImage , 965 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, OpenVCDImage, OpenVCDImage , 949 ,dereference failure: invalid pointer
+ modules/access/vcd/cdrom.c, ioctl_Close, CloseVCDImage , 970 ,dereference failure: invalid pointer freed
+ modules/access/vcd/cdrom.c, ioctl_ReadSectors, ioctl_ReadSectors , 590 ,dereference failure: invalid pointer
+ modules/access/v4l2/access.c, AccessPoll, AccessPoll , 203 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, GetBufferPTS, GetBufferPTS , 1045 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, GrabVideo, GrabVideo , 623 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, ResetCrop, ResetCrop , 241 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, SetupInput, SetupInput , 255 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, StartMmap, StartMmap , 662 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, StartUserPtr, StartUserPtr , 649 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, StopMmap, StopMmap , 740 ,dereference failure: invalid pointer
+ modules/access/v4l2/video.c, fcmp, fcmp , 306 ,dereference failure: invalid pointer
+ modules/access/v4l2/demux.c, DemuxClose, DemuxClose , 632 ,dereference failure: invalid pointer
+ modules/access/v4l2/demux.c, InitVideo, InitVideo , 274 ,dereference failure: invalid pointer
+ modules/access/v4l2/demux.c, UserPtrQueue, UserPtrQueue , 672 ,dereference failure: invalid pointer
+ modules/access/v4l2/radio.c, RadioClose, RadioClose , 119 ,dereference failure: invalid pointer
+ modules/access/v4l2/controls.c, ControlCreate, ControlCreate , 333 ,dereference failure: invalid pointer
+ modules/access/v4l2/controls.c, ControlSetCallback, ControlSetCallback , 159 ,dereference failure: invalid pointer
+ modules/access/v4l2/controls.c, ControlsDeinit, ControlsDeinit , 787 ,dereference failure: invalid pointer
+ modules/access/v4l2/controls.c, ControlsInit, ControlsInit , 719 ,dereference failure: invalid pointer

@@ -1,0 +1,15 @@
+
+.
+src/
+src/bled/
+src/ext2fs/
+src/getopt/
+src/libcdio/
+src/libcdio/cdio
+src/libcdio/driver
+src/libcdio/iso9660
+src/libcdio/mmc
+src/libcdio/udf
+src/ms-sys
+src/ms-sys/inc
+src/msvc-missing
