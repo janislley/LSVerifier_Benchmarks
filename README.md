@@ -1,6 +1,8 @@
 # LSVerifier Benchmarks
 
 This is the most recent repository containing the vulnerabilities analysis results performed in some C open-source software projects.
+All open-source software codes are distributed under the Open-source license (GNU GPL, Apache, and MIT). 
+These programs have been selected due to their high importance in the open-source community and the large size with a significant open-source third-party library used.
 
 | Software      | Version   | 
 | :------------ |:---------:| 
@@ -15,5 +17,18 @@ This is the most recent repository containing the vulnerabilities analysis resul
 | OpenSSL       | 3.1       |  
 | OpenSSL       | 0.76      |  
 
-All open-source software codes are distributed under the Open-source license (GNU GPL, Apache, and MIT). 
-These programs have been selected due to their high importance in the open-source community and the large size with a significant open-source third-party library used.
+## References
+
+* VLC: https://github.com/videolan/vlc
+* VIM: https://github.com/vim/vim
+* TMUX: https://github.com/tmux/tmux
+* RUFUS: https://github.com/pbatard/rufus
+* OpenSSH: https://github.com/openssh/openssh-portable
+* Cmake: https://github.com/Kitware/CMake
+* Netdata: https://github.com/netdata/netdata
+* Wireshark: https://github.com/wireshark/wireshark
+* OpenSSL: https://github.com/openssl/openssl
+* Putty: https://github.com/github/putty
+* SQLite: https://github.com/sqlite/sqlite
+* Redis: https://github.com/redis/
+
