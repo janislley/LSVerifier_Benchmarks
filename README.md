@@ -1,6 +1,6 @@
-# ESBMSC-WR tests
+# LSVerifier Benchmarks
 
-This is the most recent repository containing the vulnerabilities analysis results performed in some open-source software.
+This is the most recent repository containing the vulnerabilities analysis results performed in some C open-source software projects.
 
 | Software      | Version   | 
 | :------------ |:---------:| 
@@ -15,4 +15,5 @@ This is the most recent repository containing the vulnerabilities analysis resul
 | OpenSSL       | 3.1       |  
 | OpenSSL       | 0.76      |  
 
-All open-source software codes are distributed under the Open-source license (GNU GPL, Apache, and MIT). These programs have been selected due to their high importance in the open-source community and the large size with a significant open-source third-party library used.
+All open-source software codes are distributed under the Open-source license (GNU GPL, Apache, and MIT). 
+These programs have been selected due to their high importance in the open-source community and the large size with a significant open-source third-party library used.
