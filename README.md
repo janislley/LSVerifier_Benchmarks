@@ -1,7 +1,9 @@
 # LSVerifier Benchmarks
 
-This is the most recent repository containing the vulnerabilities analysis results performed in some C open-source software projects.
+This most recent repository contains the vulnerability analysis results performed in some C open-source software projects.
+
 All open-source software codes are distributed under the Open-source license (GNU GPL, Apache, and MIT). 
+
 These programs have been selected due to their high importance in the open-source community and the large size with a significant open-source third-party library used.
 
 | Software      | Version   | 
@@ -15,7 +17,7 @@ These programs have been selected due to their high importance in the open-sourc
 | Netdata       | 1.32.1    |  
 | Wireshark     | 3.6       |   
 | OpenSSL       | 3.1       |  
-| OpenSSL       | 0.76      |  
+| Putty         | 0.76      |  
 
 ## References
 
@@ -29,6 +31,5 @@ These programs have been selected due to their high importance in the open-sourc
 * Wireshark: https://github.com/wireshark/wireshark
 * OpenSSL: https://github.com/openssl/openssl
 * Putty: https://github.com/github/putty
-* SQLite: https://github.com/sqlite/sqlite
-* Redis: https://github.com/redis/
+
 
